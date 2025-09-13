@@ -1,10 +1,4 @@
-// ============ SMB Training • Quiz (refactor complet) ============
-// Fixuri majore:
-// 1) Eliminat dependența de onclick inline; atașăm evenimente din JS.
-// 2) Expunem fallback-ul global window.__goNext = next IMEDIAT după definirea funcției,
-//    pentru compatibilitate cu HTML-ul existent.
-// 3) Asigurăm că DOM-ul e gata; inițializăm sigur toate listener-ele.
-// 4) Gestionăm robust timerul și starea butoanelor.
+// ============ SPT Training • Quiz (refactor) ============
 
 (function(){
   'use strict';
@@ -113,9 +107,14 @@
 
     // ===== Data =====
     async function loadQuestions(){
-      const res = await fetch('questions.json');
-      if(!res.ok) throw new Error('Nu s-au putut încărca întrebările.');
-      return res.json();
+      // încearcă questions.json, apoi fallback la questions_shuffled.json
+      try{
+        const a = await fetch('./questions.json', {cache:'no-store'});
+        if(a.ok) return a.json();
+      }catch{}
+      const b = await fetch('./questions_shuffled.json', {cache:'no-store'});
+      if(!b.ok) throw new Error('Nu s-au putut încărca întrebările.');
+      return b.json();
     }
 
     // ===== Flux =====
@@ -125,7 +124,7 @@
         setStats({ total: questions.length, correct:0, wrong:0, pickedCount:0 });
       }catch(err){
         console.error(err);
-        alert('Eroare la încărcarea întrebărilor. Verifică hosting-ul (servire prin http).');
+        alert('Eroare la încărcarea întrebărilor.');
       }
     }
 
@@ -195,7 +194,7 @@
           });
           setStats({correct:c, wrong:w});
 
-          els.nextBtn.disabled = (current >= order.length - 1); // activează doar dacă mai există întrebare
+          els.nextBtn.disabled = (current >= order.length - 1);
           els.finishBtn.disabled = (current < order.length - 1);
         });
 
@@ -204,11 +203,11 @@
         els.choices.appendChild(row);
       });
 
-      // Reset stare butoane
-      els.nextBtn.disabled = true;                 // se activează după selectarea răspunsului
+      // stare butoane
+      els.nextBtn.disabled = true;
       els.finishBtn.disabled = (current < order.length - 1);
 
-      // Progress bar (dacă există elementul #bar în DOM)
+      // Progress bar
       const bar = document.getElementById('bar');
       if(bar){
         const pct = Math.round(((current) / Math.max(1, order.length)) * 100);
@@ -222,9 +221,7 @@
         render();
       }
     }
-
-    // Expunere fallback globală pentru onclick-ul inline existent (dacă mai e în HTML)
-    window.__goNext = next;
+    window.__goNext = next; // fallback compat
 
     function finish(){
       clearInterval(timerId);
@@ -259,7 +256,7 @@
       hide(els.quiz);
       show(els.result);
 
-      // Pregătim CSV în memorie
+      // CSV cache
       window.__lastCsv = [
         ['#','Întrebare','Răspunsul tău','Răspuns corect','Corect?'],
         ...used.map((q,i)=>[
@@ -272,6 +269,7 @@
       ];
     }
 
+    // Exporturi
     function exportCSV(){
       const rows = window.__lastCsv || [];
       if(!rows.length){ alert('Nu există rezultate de exportat.'); return; }
@@ -286,25 +284,19 @@
       document.body.removeChild(a);
       URL.revokeObjectURL(url);
     }
+    function exportPDF(){ window.print(); }
 
-    function exportPDF(){
-      // Export simplu: deschidem fereastra de print (utilizatorul poate salva ca PDF)
-      window.print();
-    }
-
+    // Resetare workflow
     function resetToStart(){
       hide(els.quiz);
       hide(els.result);
       show(els.start);
       setStats({correct:0, wrong:0});
-      // reset selecții
       answers = {};
       picked = [];
       current = 0;
-      // timer vizual
       els.timer.textContent = '00:00';
       els.timer.classList.remove('warning');
-      // progress bar reset
       const bar = document.getElementById('bar');
       if(bar) bar.style.width = '0%';
     }
@@ -314,10 +306,8 @@
     els.nextBtn?.addEventListener('click', next);
     els.finishBtn?.addEventListener('click', finish);
     els.retryBtn?.addEventListener('click', resetToStart);
-
     els.btnCsv?.addEventListener('click', exportCSV);
     els.btnPdf?.addEventListener('click', exportPDF);
-
     els.btnAll?.addEventListener('click', ()=> selectAll());
     els.btn20?.addEventListener('click', ()=> selectRandom(20));
 
@@ -327,13 +317,12 @@
         segBtns.forEach(x=>x.classList.remove('active'));
         b.classList.add('active');
         quizMinutes = Number(b.dataset.min || 20);
-        try{ localStorage.setItem('smb_quiz_minutes', String(quizMinutes)); }catch{}
+        try{ localStorage.setItem('spt_quiz_minutes', String(quizMinutes)); }catch{}
       });
     });
-
-    // Restore timp din localStorage, dacă există
+    // Restore timp din localStorage
     try{
-      const saved = Number(localStorage.getItem('smb_quiz_minutes'));
+      const saved = Number(localStorage.getItem('spt_quiz_minutes'));
       if(saved){
         quizMinutes = saved;
         segBtns.forEach(x=>{
@@ -343,7 +332,7 @@
       }
     }catch{}
 
-    // Bootstrap: încărcăm întrebările + populate stats
+    // Bootstrap
     bootstrap();
   }
 })();
