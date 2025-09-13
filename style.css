@@ -1,9 +1,8 @@
 /* =========================================================
-   SMB Training — Light Theme (FULL CSS REWRITE)
-   - Fundal deschis, gri elegant
-   - Carduri albe, umbre discrete
-   - Spații mai mari între butoanele de timp (segment/seg-btn)
-   - Păstrează aceleași clase din HTML existent
+   SMB Training — Light Theme (FULL CSS)
+   - Fundal deschis, carduri albe, text închis
+   - Spații mari între butoanele de timp (segment/seg-btn)
+   - Feedback intens pe răspunsuri (verde / roșu puternic)
    ========================================================= */
 
 /* ------------ Variabile globale ------------ */
@@ -23,11 +22,15 @@
   --border:rgba(0,0,0,.10);
   --border-strong:rgba(0,0,0,.16);
 
-  /* Accente & stări */
+  /* Accente */
   --primary:#334155;       /* accent neutru (slate) */
   --primary-ink:#ffffff;   /* text pe buton primar */
-  --ok:#2ea043;   --ok-bg:#e8f5ec;
-  --no:#d03745;   --no-bg:#fbecee;
+
+  /* Stări (intense) */
+  --ok:#1f9d3a;           --ok-bg:#e8f5ec;
+  --ok-bg-strong:#c9f2d6; --ok-ink:#0b3d18;
+  --no:#e11d2e;           --no-bg:#fbecee;
+  --no-bg-strong:#ffd7dc; --no-ink:#4a0b10;
 
   /* Opțiuni întrebare */
   --choice:#ffffff;
@@ -150,22 +153,22 @@ body{
   color: var(--muted); font-weight:700; letter-spacing:.02em;
 }
 .stat b{ font-variant-numeric: tabular-nums }
-.stat.ok{ background: var(--ok-bg); color: #176a2a; border-color: rgba(46,160,67,.35) }
-.stat.no{ background: var(--no-bg); color: #8f2230; border-color: rgba(208,55,69,.35) }
+.stat.ok{ background: var(--ok-bg-strong); color: var(--ok-ink); border-color: rgba(31,157,58,.55) }
+.stat.no{ background: var(--no-bg-strong); color: var(--no-ink); border-color: rgba(225,29,46,.55) }
 .stat.dim{ opacity:.85 }
 
-/* ------------ Setează timp (cu spații mai mari) ------------ */
+/* ------------ Setează timp (spații mai mari) ------------ */
 .time-row{ display:flex; gap:16px; align-items:center; flex-wrap:wrap }
 .time-label{ color: var(--muted); font-weight:700 }
 .segment{
-  display:flex; gap:16px;                   /* << spații mai mari între butoane */
+  display:flex; gap:16px;                   /* SPAȚII MAI MARI între butoane */
   background:#f5f7fa; border:1px solid var(--border);
-  border-radius: 999px; padding: 8px 10px;  /* padding puțin mai mare */
+  border-radius: 999px; padding: 8px 10px;
 }
 .seg-btn{
   background: transparent; border:0; cursor:pointer;
   color: var(--ink); font-weight:700; letter-spacing:.2px;
-  padding: 10px 18px;                        /* << butoane mai aerisite */
+  padding: 10px 18px;                        /* Butoane mai aerisite */
   border-radius: 999px; line-height:1;
   transition: background .2s, color .2s, transform .06s ease;
 }
@@ -197,21 +200,35 @@ body{
 .choice:hover{ background: var(--choice-hover); border-color: var(--border-strong) }
 .choice:active{ transform: translateY(1px) }
 
+/* radio inputs */
 .choice input{ margin-top:2px; accent-color: var(--primary); min-width:18px; width:18px; height:18px; flex:0 0 auto }
 .choice .label{ color: var(--ink) }
 .choice .hint{ color: var(--muted); margin-top:4px; font-size:13px }
 
-/* Stări corect/greșit */
+/* ------------ Feedback intens corect/greșit ------------ */
 .choice.correct{
-  border-color: rgba(46,160,67,.55);
-  box-shadow: 0 0 0 2px rgba(46,160,67,.15) inset;
-  animation: pulseCorrect .25s ease;
+  background:
+    linear-gradient(180deg, rgba(31,157,58,.12), rgba(31,157,58,.06)),
+    var(--ok-bg-strong);
+  border-color: rgba(31,157,58,.85);
+  box-shadow:
+    0 0 0 2px rgba(31,157,58,.28) inset,
+    0 8px 18px rgba(31,157,58,.14);
+  animation: pulseCorrect .28s ease;
 }
+.choice.correct .label, .choice.correct .hint{ color: var(--ok-ink) }
+
 .choice.wrong{
-  border-color: rgba(208,55,69,.6);
-  box-shadow: 0 0 0 2px rgba(208,55,69,.15) inset;
+  background:
+    linear-gradient(180deg, rgba(225,29,46,.12), rgba(225,29,46,.06)),
+    var(--no-bg-strong);
+  border-color: rgba(225,29,46,.9);
+  box-shadow:
+    0 0 0 2px rgba(225,29,46,.28) inset,
+    0 8px 18px rgba(225,29,46,.14);
   animation: shakeWrong .25s ease;
 }
+.choice.wrong .label, .choice.wrong .hint{ color: var(--no-ink) }
 
 /* ------------ Timer & progres ------------ */
 .timer{
@@ -241,14 +258,6 @@ body{
 }
 .review-item .q{ font-weight:700; margin-bottom:6px }
 .review-item .a{ color: var(--muted) }
-
-/* ------------ Form fields ------------ */
-.field{ display:flex; flex-direction:column; gap:6px }
-.input, select, textarea{
-  background:#fff; border:1px solid var(--border); color: var(--ink);
-  border-radius:10px; padding:10px 12px;
-}
-.input::placeholder{ color: var(--muted-2) }
 
 /* ------------ Footer ------------ */
 .site-footer{
