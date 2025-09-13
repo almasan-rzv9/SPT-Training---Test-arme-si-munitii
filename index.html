@@ -38,7 +38,7 @@
         </div>
 
         <!-- Controls -->
-        <div class="panel-actions">
+        <div class="controls">
           <button type="button" class="btn ghost" id="btn-all">TOT</button>
           <button type="button" class="btn ghost" id="btn-20">20</button>
           <div class="spacer"></div>
@@ -56,9 +56,7 @@
   <section id="quiz-screen" class="container hidden" aria-live="polite">
     <article class="card glass">
       <div class="q-head">
-        <div class="progressbar" aria-hidden="true">
-          <div id="bar" class="bar"></div>
-        </div>
+        <div class="progressbar" aria-hidden="true"><div id="bar" class="bar"></div></div>
         <div id="progress" class="muted" aria-atomic="true"></div>
         <div id="timer" class="timer" aria-live="polite">00:00</div>
         <div id="score-mini" class="muted" aria-atomic="true"></div>
@@ -96,7 +94,7 @@
     <span>© SPT Training</span>
   </footer>
 
-  <!-- JS la final, cu defer pentru încărcare sigură după DOM -->
+  <!-- JS la final -->
   <script src="app.js" defer></script>
 </body>
 </html>
