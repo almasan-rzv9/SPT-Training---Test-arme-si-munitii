@@ -1,2 +1,3 @@
-# SPT-Training---Test-arme-si-munitii
-Chestionar pentru cursul de Arme și Muniții.
+# SMB-Training---Test
+Chestionar de verificare a cunostintelor
+

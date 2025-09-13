@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SMB Training • Quiz</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body data-app-version="1.1.1">
+  <!-- ===== HEADER ===== -->
+  <header class="site-header container">
+    <h1 class="brand"><span class="logo" aria-hidden="true"></span> SMB Training</h1>
+    <p class="subtitle">Verifică-ți cunoștințele înainte de certificare.</p>
+  </header>
+
+  <!-- ===== START ===== -->
+  <main id="start-screen" class="container">
+    <section class="card glass">
+      <div class="panel compact">
+        <!-- Stats -->
+        <div class="panel-stats">
+          <div class="stat"><span>ÎNTREBĂRI</span><b id="stat-total">0</b></div>
+          <div class="stat ok"><span>CORECTE</span><b id="stat-correct">0</b></div>
+          <div class="stat no"><span>GREȘITE</span><b id="stat-wrong">0</b></div>
+          <div class="stat dim"><span>SELECȚIE</span><b id="stat-picked">0</b></div>
+        </div>
+
+        <!-- Setează timp -->
+        <div class="time-row">
+          <label class="time-label">Setează timp:</label>
+          <div class="segment" role="group" aria-label="Preset timp">
+            <button type="button" class="seg-btn" data-min="10">10m</button>
+            <button type="button" class="seg-btn" data-min="15">15m</button>
+            <button type="button" class="seg-btn active" data-min="20">20m</button>
+            <button type="button" class="seg-btn" data-min="30">30m</button>
+          </div>
+        </div>
+
+        <!-- Controls -->
+        <div class="panel-actions">
+          <button type="button" class="btn ghost" id="btn-all">TOT</button>
+          <button type="button" class="btn ghost" id="btn-20">20</button>
+          <div class="spacer"></div>
+          <button id="start-btn" class="btn primary" type="button">Start Quiz</button>
+        </div>
+      </div>
+
+      <p class="hint">
+        Implicit se aleg <b>20</b> întrebări aleatoriu. Prag de trecere: <b>18/20</b> (90%).
+      </p>
+    </section>
+  </main>
+
+  <!-- ===== QUIZ ===== -->
+  <section id="quiz-screen" class="container hidden" aria-live="polite">
+    <article class="card glass">
+      <div class="q-head">
+        <div class="progressbar" aria-hidden="true">
+          <div id="bar" class="bar"></div>
+        </div>
+        <div id="progress" class="muted" aria-atomic="true"></div>
+        <div id="timer" class="timer" aria-live="polite">00:00</div>
+        <div id="score-mini" class="muted" aria-atomic="true"></div>
+      </div>
+
+      <h2 id="question-text" class="question"></h2>
+      <div id="choices" class="choices" role="listbox" aria-label="Răspunsuri"></div>
+
+      <div class="controls">
+        <button id="next-btn" class="btn" type="button" disabled>Următoarea</button>
+        <button id="finish-btn" class="btn primary" type="button">Finalizează</button>
+      </div>
+    </article>
+  </section>
+
+  <!-- ===== RESULT ===== -->
+  <section id="result-screen" class="container hidden">
+    <article class="card glass">
+      <h2 class="title">Rezultat</h2>
+      <p id="scoreline" class="scoreline"></p>
+
+      <div class="controls">
+        <button id="retry-btn" class="btn" type="button">Reia</button>
+        <button id="export-csv" class="btn ghost" type="button">Export CSV</button>
+        <button id="export-pdf" class="btn ghost" type="button">Export PDF</button>
+      </div>
+
+      <h3 class="title sm">Revizuire</h3>
+      <div id="review-list" class="review"></div>
+    </article>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer container">
+    <span>© SMB Training</span>
+  </footer>
+
+  <!-- JS la final, cu defer pentru încărcare sigură după DOM -->
+  <script src="app.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,2272 @@
+[
+  {
+    "id": 1,
+    "text": "Armele neletale supuse notificării prealabile pot fi deținute, purtate și folosite:",
+    "choices": [
+      "de la data procurării acestora",
+      "numai după ce acestea au fost înregistrate la autoritățile competente",
+      "după ce au fost supuse testării în poligon"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 2,
+    "text": "Care din următoarele categorii de persoane fizice pot fi autorizate să procure arme letale cu destinația apărare și pază?",
+    "choices": [
+      "sportivii de tir categoria II",
+      "demnitarii, magistrații, diplomații, militarii și polițiștii, doar pe perioada cât sunt în activitate",
+      "demnitarii, magistrații, diplomații, militarii și polițiștii, pe perioada cât sunt în activitate și după încetarea activității, pensionare, trecerea în rezervă sau retragere, după caz"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 3,
+    "text": "Persoana care, până la expirarea permisului de armă, nu a depus documentația necesară în vederea prelungirii perioadei de valabilitate a acestuia, pentru a nu fi sancționată penal, are obligația:",
+    "choices": [
+      "să depună armele și muniția aferentă, care sunt înscrise în permisul de armă, la un armurier autorizat, în termen de 10 zile de la expirarea permisului de armă",
+      "să depună armele și muniția aferentă, care sunt înscrise în permisul de armă, la un armurier autorizat, în termen de 30 zile de la expirarea permisului de armă",
+      "să depună armele și muniția aferentă, care sunt înscrise în permisul de armă, la un armurier autorizat, în termen de 90 zile de la expirarea permisului de armă"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 4,
+    "text": "Din punct de vedere constructiv, țeava la arma de foc scurtă are o lungime:",
+    "choices": [
+      "ce nu depășește 30 cm",
+      "ce depășește 30 cm",
+      "40 cm"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 5,
+    "text": "Deținătorul are obligația să solicite acordarea permisului de armă în termen de:",
+    "choices": [
+      "trei zile lucrătoare de la data procurării armei",
+      "cinci zile lucrătoare de la data procurării armei",
+      "24 de ore de la data procurării armei"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 6,
+    "text": "Armele se clasifică din punct de vedere constructiv astfel:",
+    "choices": [
+      "arme militare, arme de apărare și pază (scurte), arme de autoapărare (neletale, scurte cu gaze, cauciuc), și altele",
+      "arme cu aer comprimat sau cu gaze sub presiune, arme de foc scurte, arme de foc lungi, arme de foc automate, și altele",
+      "arme vechi, arme de recuzită, arme de panoplie, arme de colecție, arme și dispozitive de agrement, și altele"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 7,
+    "text": "Dreptul de a purta și folosi arme se poate acorda solicitantului, în condițiile Legii nr. 295/2004, după cum urmează:",
+    "choices": [
+      "pentru cel mult 3 arme de apărare și pază",
+      "pentru cel mult 10 arme de tir",
+      "pentru un număr nelimitat de arme de vânătoare"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 8,
+    "text": "Conform definiției din Legea 295/2004 republicată, în categoria „componentă esențială” a unei arme includem următoarele:",
+    "choices": [
+      "țeavă, încărcătorul, cutia mecanismelor, manșonul mobil, cilindrul, cap închizător, sau închizător",
+      "țeavă, frema, patul, cutia mecanismelor, cilindrul, cap închizitor, sau închizător",
+      "țeavă, frema, cutia mecanismelor, manșonul mobil, cilindrul, cap închizător, sau închizător"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 9,
+    "text": "Titularul dreptului de deținere a unei arme letale, poate să o folosească într-un poligon autorizat, în condițiile legii:",
+    "choices": [
+      "în baza documentului care atestă dreptul de deținere, pe care îl prezintă instructorului în poligonul de tragere",
+      "în baza autorizației temporare de transport și folosire a armei eliberată la cerere, de către organul de poliție competent",
+      "în baza adeverinței eliberate de instructorul în poligonul de tragere respectiv"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 10,
+    "text": "În cazul uzului de armă, în urma căruia nu au rezultat victime sau pagube materiale, persoana care a făcut uz de armă trebuie să anunțe cel mai apropiat organ de poliție în termen de:",
+    "choices": [
+      "3 zile",
+      "de îndată",
+      "24 ore"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 11,
+    "text": "În sensul Legii nr. 295/2004 privind regimul armelor și al munițiilor, armele și munițiile cu potențial letal sunt:",
+    "choices": [
+      "armele și munițiile prevăzute în categoria C din anexă, prin a căror utilizare se poate cauza rănirea gravă a persoanelor",
+      "armele și munițiile prevăzute în categoria C din anexă, prin a căror utilizare se poate cauza moartea ori rănirea gravă a persoanelor",
+      "armele și munițiile prevăzute în categoria B din anexă, prin a căror utilizare se poate cauza moartea persoanelor"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 12,
+    "text": "Una din condițiile prevăzute de Legea 295/2004 privind regimul armelor și al munițiilor care trebuie îndeplinită pentru acordarea autorizației de procurare a armelor neletale prevăzute în categoria C din anexa legii este:",
+    "choices": [
+      "persoana solicitantă este aptă doar din punct de vedere psihologic",
+      "persoana solicitantă nu este inculpată în cauze penale pentru fapte săvârșite cu intenție",
+      "persoana solicitantă nu este inculpată în cauze penale pentru fapte săvârșite atât cu intenție, cât și din culpă"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 13,
+    "text": "Dreptul de deținere, port și folosire a armelor se anulează dacă titularul se află în una dintre următoarele situații:",
+    "choices": [
+      "a pierdut armele sau acestea i-au fost sustrase în împrejurări neimputabile acestuia",
+      "există indicii comportamentale temeinice care reclamă examinarea de urgență psihologică și/sau medicală...",
+      "a săvârșit într-o perioadă de 2 ani două contravenții prevăzute de Legea 295/2004"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 14,
+    "text": "Nerespectarea obligației de a prezenta pentru control armele, componentele esențiale și munițiile deținute, la solicitarea organelor de poliție, constituie:",
+    "choices": [
+      "infracțiune și se pedepsește cu închisoare de la 3 luni la 2 ani",
+      "contravenție și se pedepsește cu amendă, precum și sancțiunea complementară de anulare a dreptului de deținere, port și folosire a armelor",
+      "contravenție și se pedepsește cu amendă"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 15,
+    "text": "În ce termen titularul dreptului de a purta și folosi arme de vânătoare, care a înstrăinat temporar arma, trebuie să notifice organul de poliție competent despre această situație:",
+    "choices": [
+      "în termen de 5 zile de la data înstrăinării armei de vânătoare",
+      "în termen de 2 zile de la data înstrăinării armei de vânătoare",
+      "legea nu prevede în mod expres"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 16,
+    "text": "Pașaportul European pentru arme de foc se acordă cu o valabilitate de:",
+    "choices": [
+      "1 an",
+      "3 ani",
+      "5 ani"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 17,
+    "text": "Persoanele autorizate să dețină, să poarte și să folosească arme pentru pază și autoapărare pot face uz de armă:",
+    "choices": [
+      "în situații de stare de necesitate, potrivit legii",
+      "în situații de forță majoră, când situația impune, potrivit legii",
+      "în situații de legitimă apărare, ori stare de necesitate, potrivit legii"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 18,
+    "text": "Pașaportul European pentru arme de foc, precum și permisul de armă se acordă cu o valabilitate de:",
+    "choices": [
+      "3 ani în ambele situații",
+      "3 ani în cazul pașaportului european pentru arme de foc și 5 ani în cazul permisului de armă",
+      "5 ani în ambele situații"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 19,
+    "text": "Sunt interzise procurarea, deținerea, folosirea, precum și efectuarea oricărei operațiuni cu încărcătoare ce se pot monta pe arme de foc semiautomate cu percuție centrală sau cu repetiție, care pot conține mai mult de ? cartușe, în cazul armelor de foc scurte:",
+    "choices": [
+      "12",
+      "20",
+      "24"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 20,
+    "text": "Uzul de armă neletală din categoria celor supuse autorizării, fără drept, constituie:",
+    "choices": [
+      "contravenție și se pedepsește cu amendă și anularea dreptului de a deține arme neletale",
+      "infracțiune și se pedepsește cu închisoare de la 6 luni la 2 ani",
+      "infracțiune și se pedepsește cu închisoare de la 3 luni la un an, sau amendă"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 21,
+    "text": "Titularul dreptului de a folosi și purta arme de foc letale are obligația:",
+    "choices": [
+      "de a păstra arma la un armurier autorizat",
+      "de a păstra arma în locuința sa în condiții de securitate, astfel încât să nu permită accesul persoanelor neautorizate",
+      "de a păstra arma la domiciliu sau reședința menționate în permisul de armă, în condiții de securitate, astfel încât să nu permită accesul persoanelor neautorizate"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 22,
+    "text": "Cantitatea maximă de muniție care poate fi procurată și deținută de către posesorii armelor neletale cu destinația autoapărare este de:",
+    "choices": [
+      "100 cartușe pentru o singură armă",
+      "50 cartușe pentru o singură armă",
+      "25 cartușe pentru o singură armă"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 23,
+    "text": "Documentele care atestă dreptul de procurare, respectiv deținere, port și folosire a armelor sunt:",
+    "choices": [
+      "autorizația de procurare a armei, permisul de armă, certificatul de deținător, atestatul de colecționar, ordinul de serviciu și pașaportul European pentru arme de foc",
+      "autorizația de procurare a armei, permisul de armă, atestatul de colecționar, permisul de vânătoare permanent, certificatul de deținător, ordinul de serviciu și pașaportul European pentru arme de foc",
+      "autorizația de procurare a armei, permisul de armă, atestatul de colecționar, autorizația temporară de transport și folosire a armei, certificatul de deținător și pașaportul european pentru arme de foc"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 24,
+    "text": "Persoanele care îndeplinesc condițiile legale pot fi autorizate să procure din România, având în vedere scopul pentru care se solicită autorizarea:",
+    "choices": [
+      "un număr nelimitat de arme din categoria arme de vânătoare, arme de tir și arme de autoapărare",
+      "un număr nelimitat de arme din categoria arme de vânătoare, arme de tir și arme de apărare și pază",
+      "un număr nelimitat de arme din categoria arme de vânătoare, arme de tir și arme de colecție"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 25,
+    "text": "Care este algoritmul de bază al acordării primului ajutor medical?",
+    "choices": [
+      "Asigurarea locului accidentului, prevenirea agravării situației, intervenția în cazul în care persoana este lipsită de cunoștință, stabilirea priorităților",
+      "Asigurarea locului accidentului, prevenirea agravării situației, stabilirea contactului cu persoana accidentată, intervenția în cazul în care persoana este lipsită de cunoștință, ameliorarea durerii, stabilirea priorităților",
+      "Asigurarea locului accidentului, stabilirea contactului cu persoana accidentată, ameliorarea durerii"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 26,
+    "text": "În cazul anulării dreptului de deținere, port și folosire arme letale cu destinația vânătoare, anulare survenită în urma pierderii calității de vânător, persoana în cauză se poate autoriza:",
+    "choices": [
+      "după 2 ani de la data dispunerii anulării, cu condiția să dețină permis de vânătoare și carnet de membru vânător, documente valabile și vizate pe anul în curs",
+      "după 2 ani de la data dispunerii anulării, cu condiția să dețină carnet de membru vânător, document valabil și vizat pe anul în curs",
+      "oricând, cu condiția să dețină permis de vânătoare și carnet de membru vânător, documente valabile și vizate pe anul în curs"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 27,
+    "text": "Neexecutarea obligației de a se supune examinării medicale și/sau psihologice când există indicii temeinice ce reclamă necesitatea examinării, în termen de 30 de zile de la primirea solicitării din partea organului de poliție, atrage:",
+    "choices": [
+      "suspendarea dreptului de deținere, port și folosire a armelor letale sau neletale",
+      "anularea dreptului de deținere, port și folosire a armelor letale sau neletale",
+      "răspunderea contravențională"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 28,
+    "text": "Dovada notificării în cazul achiziționării unei arme neletale supuse notificării de către o persoană fizică are valabilitatea de:",
+    "choices": [
+      "45 zile",
+      "90 zile",
+      "30 zile"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 29,
+    "text": "Mecanismul de dare a focului:",
+    "choices": [
+      "este destinat pentru a declanșa cocoșul în vederea executării percuției",
+      "este destinat pentru a extrage tubul din camera cartușului",
+      "servește la reîncărcarea pistolului și contribuie la extragerea tubului cartușului"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 30,
+    "text": "Titularul dreptului de deținere sau de port și folosire a armelor letale, poate transporta pe teritoriul României, prin mijloace proprii:",
+    "choices": [
+      "un număr de cel mult 5 arme",
+      "un număr de cel mult 10 arme",
+      "un număr de cel mult 15 arme"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 31,
+    "text": "Reculul armei se referă la:",
+    "choices": [
+      "mișcarea armei dinspre înapoi datorită presiunii gazelor asupra închizătorului prin intermediul tubului cartușului",
+      "mișcarea armei spre înapoi datorită presiunii gazelor asupra închizătorului prin intermediul tubului cartușului",
+      "mișcarea armei datorită presiunii gazelor asupra închizătorului prin intermediul tubului cartușului"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 32,
+    "text": "Persoana care a procurat în condițiile legii o țeavă pentru armă letală are obligația să se prezinte la organul de poliție care a emis autorizația, în vederea eliberării permisului de armă sau, după caz, înscrierea țevii în acest document:",
+    "choices": [
+      "în termen de 5 zile lucrătoare de la data achiziției, în cazul procurării din România",
+      "în termen de 15 zile calendaristice de la data achiziției, în cazul în care a procurat personal țeava din afara teritoriului României",
+      "nu are obligația de a se prezenta la organul de poliție după procurare, întrucât în cazul țevilor armelor letale nu este necesară îndeplinirea anumitor condiții legale"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 33,
+    "text": "Titularii certificatului de deținător pot trece frontiera de stat a României cu armele înscrise în acest document:",
+    "choices": [
+      "doar în baza certificatului de deținător și fără respectarea altor obligații, putând dispune în orice fel de armă",
+      "doar în baza certificatului de deținător însă fără a le putea înstrăina în afara teritoriului României",
+      "în baza certificatului de deținător, însoțit de o autorizație de scoatere a armei din țară"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 34,
+    "text": "Cantitatea maximă de arme pe care posesorul unui permis de armă de tip B o poate deține este:",
+    "choices": [
+      "un număr nelimitat de arme neletale supuse autorizării cu destinația tir sportiv, un număr nelimitat de arme neletale supuse autorizării cu destinația autoapărare, un număr de 2 arme supuse autorizării cu destinația apărare și pază",
+      "un număr de 2 arme neletale supuse autorizării cu destinația tir sportiv, un număr nelimitat de arme neletale supuse autorizării cu destinația autoapărare, un număr nelimitat de arme letale supuse autorizării cu destinația apărare și pază",
+      "un număr nelimitat de arme neletale supuse autorizării cu destinația tir sportiv, un număr de 2 arme neletale supuse autorizării cu destinația autoapărare, un număr de 2 arme supuse autorizării cu destinația apărare și pază"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 35,
+    "text": "Este greșită următoarea afirmație:",
+    "choices": [
+      "Posesorii armelor cu potențial letal cu destinația autoapărare pot procura/detine maximum 25 de cartușe pentru o singură armă",
+      "Dreptul de deținere, port și folosire a armelor letale cu destinația vânătoare poate fi acordat pentru un număr nelimitat de arme de vânătoare",
+      "La cerere, colecționarii de arme pot fi autorizați să colecționeze un număr maxim de 20 de cartușe pentru câte o singură armă de fiecare calibru"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 36,
+    "text": "Neprezentarea la organul de poliție competent, până la împlinirea termenului de valabilitate al permisului de armă, pentru prelungirea acestuia atrage:",
+    "choices": [
+      "suspendarea dreptului de deținere, respectiv de port și folosire a armelor, până la remedierea situației",
+      "anularea dreptului de deținere, respectiv de port și folosire a armelor",
+      "suspendarea... până la emiterea unui nou permis"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 37,
+    "text": "Persoanele fizice care dețin legal arme neletale pot face uz de armă în următoarele situații:",
+    "choices": [
+      "Asupra animalelor aflate în localități și ale căror proprietari nu sunt cunoscuți",
+      "În caz de legitimă apărare, stare de necesitate ori caz fortuit, în condițiile legii",
+      "Nu au voie să facă uz de armă în nicio situație"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 38,
+    "text": "Armele de foc scurte, semiautomate sau cu percuție se clasifică după destinație, astfel:",
+    "choices": [
+      "arme militare, arme de apărare și pază, arme de vânătoare",
+      "arme de vânătoare, arme de autoapărare, arme de agrement",
+      "arme de apărare și pază, arme militare, arme de tir sportiv"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 39,
+    "text": "Muniția destinată armelor letale se păstrează numai în dulapuri metalice, în casete sau, după caz, în compartimente separate față de cele în care se păstrează armele pentru care este destinată, cu excepția armelor de apărare și pază, caz în care poate fi păstrată împreună cu acestea o anumită cantitate, respectiv:",
+    "choices": [
+      "cel mult 6 cartușe destinate unei singure arme",
+      "cel mult 12 cartușe destinate unei singure arme",
+      "cel mult 24 cartușe destinate unei singure arme"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 40,
+    "text": "Nedepunerea armei și a muniției la un armurier autorizat în termen de 10 zile de la expirarea perioadei de valabilitate a permisului de armă constituie:",
+    "choices": [
+      "infracțiune și se pedepsește cu închisoare de la 3 luni la 1 an și interzicerea unor drepturi",
+      "infracțiune și se pedepsește cu închisoare de la 6 luni - 3 ani",
+      "contravenție, sancționată cu amendă contravențională și măsura complementară de confiscare a armei și a muniției"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 41,
+    "text": "Deținerea ori utilizarea de muniție expirată sau degradată, care prin păstrare sau folosire ar pune în pericol viața sau integritatea corporală a persoanelor reprezintă:",
+    "choices": [
+      "Constituie contravenție la Legea 295/2004 republicată",
+      "Nu este sancționată de Legea 295/2004 republicată",
+      "Constituie infracțiune"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 42,
+    "text": "Armele de apărare și pază pot fi scoase de pe teritoriul României de către persoanele fizice care dețin arma în condițiile legii?",
+    "choices": [
+      "nu pot fi scoase de pe teritoriul României, cu excepția persoanelor care îndeplinesc o funcție ce implică exercitarea autorității publice și sunt în exercitarea atribuțiilor de serviciu",
+      "în baza permisului de armă în care aceasta este înscrisă",
+      "cu autorizație emisă de organul de poliție care i-a eliberat permisul de armă"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 43,
+    "text": "Armele vechi funcționale, care utilizează muniție compusă din ansamblul tub cartuș, încărcătură de azvârlire, capsă de aprindere și proiectil, precum și reproducerile acestora, au regimul juridic al:",
+    "choices": [
+      "armelor neletale supuse autorizării",
+      "armelor letale supuse autorizării",
+      "armelor neletale supuse notificării"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 44,
+    "text": "Autorizația temporară de transport și folosire a armelor eliberată titularului dreptului de deținere a armelor, în scopul folosirii acestora într-un poligon autorizat, se acordă cu o valabilitate:",
+    "choices": [
+      "de cel mult 3 zile, care poate fi prelungită o singură dată pentru aceeași perioadă, la cerere, în cazuri justificate",
+      "de cel mult 5 zile, în funcție de durata transportului, fără posibilitatea de prelungire",
+      "egală cu durata desfășurării activității în cauză, la care se adaugă timpul necesar deplasării, dacă activitatea are loc în altă localitate decât cea de domiciliu"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 45,
+    "text": "Deţinerea sau portul fără drept de arme neletale din categoria celor supuse autorizării reprezintă:",
+    "choices": [
+      "infracțiune şi se pedepsește cu închisoare de la unu la 5 ani",
+      "infracțiune şi se pedepsește cu închisoare de la 3 luni la un an sau cu amendă",
+      "contravenție prevăzută cu sancțiunea complementară de confiscare a armelor"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 46,
+    "text": "Persoana care a făcut uz de armă este obligată să anunțe cel mai apropiat organ de poliție, indiferent dacă au rezultat sau nu victime ori pagube materiale:",
+    "choices": [
+      "de îndată",
+      "în termen de 24 de ore",
+      "în termen de 48 de ore"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 47,
+    "text": "Neprezentarea la organul de poliție competent, până la împlinirea termenului de valabilitate al permisului de armă, pentru prelungirea acestuia atrage:",
+    "choices": [
+      "anularea dreptului de deținere, respectiv de port și folosire a armelor, persoana în cauză putându-se reautoriza imediat, în cazul în care îndeplinește condițiile legale de autorizare",
+      "anularea dreptului de deținere, respectiv de port și folosire a armelor, persoana în cauză putându-se reautoriza după trecerea a cel puțin un an de zile, în cazul în care îndeplinește condițiile legale de autorizare",
+      "anularea dreptului de deținere, respectiv de port și folosire a armelor, persoana în cauză putându-se reautoriza după trecerea a cel puțin 2 ani de zile, în cazul în care îndeplinește condițiile legale de autorizare"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 48,
+    "text": "Bura ca element de bază în compunerea cartușului de vânătoare are următorul rol:",
+    "choices": [
+      "realizează o închidere bună, oprind ieșirea gazelor pe lângă ea, deci intrarea lor printre alice, iar pe de altă parte, împinge ca un piston spre gura țevii",
+      "imprimă mișcarea de rotație a alicelor pe traiectorie",
+      "reduce uzura țevii, prin micșorarea frecării pe ghinturi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 49,
+    "text": "Care din următoarele categorii de persoane fizice pot fi autorizate să procure arme letale cu destinația apărare și pază?",
+    "choices": [
+      "demnitarii, magistrații, diplomații, militarii, polițiștii și polițiștii locali, pe perioada cât sunt în activitate",
+      "persoanele prevăzute de lege, care îndeplinesc o funcție ce implică exercițiul autorității publice, pe perioada în care au această calitate, precum și după încetarea activității",
+      "persoanele incluse în programe de protecția martorilor, pe perioada în care au această calitate"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 50,
+    "text": "Colecționarii de arme pot procura, cu respectarea prevederilor Legii nr. 295/2004:",
+    "choices": [
+      "sisteme de ochire care funcționează pe principiul laser",
+      "sisteme de ochire pe timp de noapte",
+      "arme de colecție letale, aflate în stare de funcționare"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 51,
+    "text": "Din punct de vedere constructiv, armele de foc cu repetiție sunt:",
+    "choices": [
+      "arme de foc care, după fiecare cartuș tras, se reîncarcă automat, dar nu pot trage o serie de mai multe cartușe prin apăsarea continuă pe trăgaci",
+      "arme de foc care, după fiecare foc tras, se reîncarcă manual, prin introducerea pe țevă a unui cartuș preluat din încărcător prin intermediul unui mecanism",
+      "arme de foc fără încărcător, care este încărcată după fiecare tragere prin introducerea manuală a cartușului în camera de încărcare sau într-un lăcaș special prevăzut la intrarea în țeavă"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 52,
+    "text": "Cantitatea maximă de muniție care poate fi deținută de către titularii dreptului de deținere, respectiv de port și folosire arme letale și care se înscrie în permisul de armă de către organul de poliție care eliberează acest document, este:",
+    "choices": [
+      "300 de cartușe pentru o singură armă de fiecare calibru, pentru care are dreptul de port și folosire, în cazul armelor de vânătoare",
+      "50 de cartușe cu glonț pentru fiecare armă, în cazul armelor de apărare și pază",
+      "1000 de cartușe pentru fiecare armă pentru care are dreptul de port și folosire, în cazul armelor de tir"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 53,
+    "text": "Infracțiunea de nerespectare a regimului armelor și munițiilor poate fi săvârșită în următoarea formă alternativă:",
+    "choices": [
+      "fabricarea sau asamblarea de arme letale, de piese sau de muniții pentru acestea din orice componente esențiale traficate ilicit",
+      "fabricarea sau asamblarea de arme neletale, de piese sau de muniții pentru acestea din orice componente esențiale traficate ilicit",
+      "fabricarea sau asamblarea de arme letale, de piese sau de muniții pentru acestea din orice componente traficate ilicit"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 54,
+    "text": "Armele și dispozitivele neletale din categoria E din anexa Legii nr. 295/2004 privind regimul armelor și al munițiilor pot fi deținute și, după caz, purtate și folosite de către persoanele fizice:",
+    "choices": [
+      "cu condiția îndeplinirii procedurilor de înregistrare ori autorizare a acestora, după caz, la sau de către autoritățile competente, în condițiile prevăzute de prezenta lege",
+      "fără îndeplinirea procedurilor de înregistrare ori autorizare a acestora, în condițiile prevăzute de prezenta lege",
+      "după notificarea prealabilă a autorităților competente din cadrul inspectoratelor județene de poliție"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 55,
+    "text": "Încredințarea armelor letale supuse autorizării, pentru care s-a obținut dreptul de deținere, respectiv port și folosire de către posesorii acestora, unor persoane neautorizate în condițiile Legii 295/2004R, constituie:",
+    "choices": [
+      "infracțiune și se pedepsește cu închisoare de la 3 luni la 2 ani",
+      "contravenție și se pedepsește cu amendă, precum și sancțiunea complementară de anulare a dreptului de deținere, port și folosire a armelor și de confiscarea armelor sau, după caz, a munițiilor",
+      "contravenție și se pedepsește cu amendă, precum și sancțiunea complementară de anulare a dreptului de deținere, port și folosire a armelor"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 56,
+    "text": "Furtul permiselor de armă se declară:",
+    "choices": [
+      "în termen de 48 de ore de la constatare, la organul de poliție în a cărui rază de competență teritorială a fost constatat",
+      "în termen de 48 de ore de la constatare, la organul de poliție care l-a emis",
+      "în termen de 48 de ore de la constatare, la organul de poliție în a cărui rază de competență teritorială a fost constatat sau la organul de poliție care l-a emis"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 57,
+    "text": "Arma de apărare și pază poate fi purtată numai de către titularul permisului, având obligația să se afle în permanență numai asupra sa și să nu fie înmânată, sub nicio formă, altor persoane, cu excepția:",
+    "choices": [
+      "personalului abilitat prin lege să păstreze și să asigure securitatea temporară a armelor la intrarea în instituțiile publice",
+      "persoanelor care la rândul lor sunt titulare ale dreptului de deținere, port și folosire a armelor",
+      "membrilor de familie care au domiciliul la aceeași adresă cu cea înscrisă în permisul de armă"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 58,
+    "text": "Conform Legii 295/2004, din categoria „componentă esențială” a unei arme fac parte:",
+    "choices": [
+      "țeava, frema, cutia mecanismelor, după caz, superioară sau inferioară, încărcătorul, cilindrul, cap închizător sau închizător, care în calitate de obiecte separate, sunt incluse în categoria armelor de foc pe care sunt montate sau sunt concepute să se monteze",
+      "țeava, frema, cutia mecanismelor, după caz, superioară sau inferioară, manșonul mobil, cilindrul, cap închizător sau închizător, care în calitate de obiecte separate, sunt incluse în categoria armelor de foc pe care sunt montate sau sunt concepute să se monteze",
+      "țeava, frema, cutia mecanismelor, după caz, superioară sau inferioară, manșonul mobil, cilindrul, patul armei, cap închizător sau închizător, care în calitate de obiecte separate, sunt incluse în categoria armelor de foc pe care sunt montate sau sunt concepute să se monteze"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 59,
+    "text": "Suspendarea dreptului de a deține arme neletale supuse autorizării intervine dacă titularul se află în una din următoarele situații:",
+    "choices": [
+      "a pierdut armele sau acestea i-au fost sustrase în împrejurări imputabile acestuia",
+      "nu se prezintă la termenul prevăzut de lege în vederea prelungirii valabilității permisului de armă",
+      "este inculpat în cauze penale pentru fapte săvârșite cu intenție"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 60,
+    "text": "Cererea privind eliberarea unei autorizații de procurare a unei arme neletale este refuzată în situația în care solicitantul:",
+    "choices": [
+      "a fost condamnat, prin hotărâre judecătorească rămasă definitivă, la pedeapsa detențiunii pe viață sau pedeapsa închisorii mai mare de un an, cu executare, pentru infracțiuni comise cu intenție",
+      "a fost condamnat, prin hotărâre judecătorească rămasă definitivă, la pedeapsa detențiunii pe viață sau pedeapsa închisorii mai mare de un an",
+      "a fost condamnat, prin hotărâre judecătorească rămasă definitivă, la pedeapsa detențiunii pe viață sau pedeapsa închisorii mai mare de 5 ani"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 61,
+    "text": "În cazul unui accident soldat cu răniți în poligon, suntem obligați să acordăm primul ajutor:",
+    "choices": [
+      "celor care solicită și acceptă acest lucru",
+      "tuturor victimelor",
+      "numai persoanelor aflate pe linia de tragere"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 62,
+    "text": "În ceea ce privește transportul armelor de vânătoare:",
+    "choices": [
+      "Armele trebuie ținute în toc sau husă, asigurate și încărcate cu muniție",
+      "Armele trebuie să se afle în permanență asupra titularului sau a unei rude până la gradul al IV-lea inclusiv",
+      "Să nu prezinte defecțiuni, cu excepția situației în care sunt transportate la armurier"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 63,
+    "text": "Persoana care, până la expirarea permisului de armă, nu a depus documentația necesară în vederea prelungirii perioadei de valabilitate a acestuia, are obligația:",
+    "choices": [
+      "să depună armele și muniția aferentă la un armurier autorizat, în termen de 15 zile de la expirarea permisului de armă",
+      "să depună armele și muniția aferentă la un armurier autorizat, în termen de 30 zile de la expirarea permisului de armă",
+      "să depună armele și muniția aferentă la un armurier autorizat, în termen de 90 zile de la expirarea permisului de armă"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 64,
+    "text": "În cazul în care persoanele autorizate să dețină și, după caz, să poarte și să folosească arme letale sau neletale supuse autorizării doresc să înstrăineze arma, au obligația ca:",
+    "choices": [
+      "în termen de 30 de zile de la data înstrăinării armei, să se prezinte la organul de poliție competent pentru a solicita radierea armei din permisul de armă, prezentând documentul autentic care atestă înstrăinarea legală",
+      "în termen de 15 zile de la data înstrăinării armei, să se prezinte la organul de poliție competent pentru a solicita radierea armei din permisul de armă, prezentând documentul autentic care atestă înstrăinarea legală",
+      "în termen de 10 zile de la data înstrăinării armei, să se prezinte la organul de poliție competent pentru a solicita radierea armei din permisul de armă, prezentând documentul autentic care atestă înstrăinarea legală"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 65,
+    "text": "Titularii dreptului de deținere pot folosi o armă dintre cele deținute, menționate în mod expres în permisul de armă?",
+    "choices": [
+      "da, însă numai în locul unde se află arma deținută sau colecția, în caz de legitimă apărare",
+      "da, însă într-un loc izolat în care să fie evitată producerea de victime omenești sau pagube materiale",
+      "nu pot fi folosite armele în cauză în nicio situație, dacă nu sunt titulari ai dreptului de port și folosire"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 66,
+    "text": "Portul armelor letale și neletale, fără drept, în sediul autorităților publice, instituțiilor publice sau a altor persoane juridice de interes public, ori în spațiile rezervate desfășurării procesului electoral reprezintă:",
+    "choices": [
+      "infracțiune și se pedepsește cu închisoare de la unu la 5 ani și interzicerea unor drepturi",
+      "contravenție și se pedepsește cu amendă contravențională",
+      "contravenție și se pedepsește cu amendă contravențională și anularea dreptului de a deține, purta și folosi arme letale/neletale"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 67,
+    "text": "Cumpărarea unei arme letale sau neletale supusă autorizării de la o persoană fizică sau juridică de către titularul unei autorizații de procurare a armelor se face prin intermediul:",
+    "choices": [
+      "unui armurier sau intermediar autorizat să comercializeze arme",
+      "unui armurier autorizat să comercializeze arme",
+      "unui posesor de licență de comercializat arme"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 68,
+    "text": "Sunt interzise persoanelor fizice:",
+    "choices": [
+      "procurarea, deținerea, portul, utilizarea, testarea, evaluarea, importul, exportul și comercializarea sistemelor de ochire care funcționează pe principiul laser, a sistemelor de ochire pe timp de noapte și/sau a dispozitivelor destinate sau adaptate diminuării zgomotului cauzat prin arderea unei încărcături",
+      "procurarea, deținerea și utilizarea... cu excepția sistemelor de ochire pe timp de noapte",
+      "testarea, evaluarea... fiind permisă procurarea, deținerea..."
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 69,
+    "text": "Titularul dreptului de a purta și folosi arme de vânătoare are dreptul de a deține o cantitate de:",
+    "choices": [
+      "cel mult trei sute de cartușe pentru câte o singură armă de fiecare calibru, dintre cele pentru care are dreptul de port și folosire",
+      "cel mult o sută de cartușe pentru câte o singură armă de fiecare calibru, dintre cele pentru care are dreptul de port și folosire",
+      "cel mult cinci sute de cartușe pentru câte o singură armă de fiecare calibru, dintre cele pentru care are dreptul de port și folosire"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 70,
+    "text": "Muniția destinată armelor letale se păstrează numai în dulapuri metalice, în casete sau, după caz, în compartimente separate față de cele în care se păstrează armele pentru care este destinată, cu următoarea excepție:",
+    "choices": [
+      "în cazul armelor de vânătoare sau de tir pentru care titularul are drept de port și folosire, poate fi păstrată cu o singură armă dintre acestea, o cantitate de 50 cartușe cu proiectil",
+      "în cazul armelor de vânătoare sau de tir pentru care titularul are drept de port și folosire, poate fi păstrată cu o singură armă dintre acestea, o cantitate de 10 cartușe cu proiectil",
+      "în cazul armelor de apărare și pază... poate fi păstrată cu o singură armă dintre acestea, o cantitate de cel mult 25 cartușe cu proiectil"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 71,
+    "text": "Dreptul de deținere a armelor se anulează dacă titularul se află în una dintre următoarele situații:",
+    "choices": [
+      "există indicii comportamentale temeinice care reclamă examinarea de urgență psihologică și/sau medicală în vederea verificării aptitudinilor persoanei și menținerii autorizării pentru a deține arme și muniții letale",
+      "a săvârșit într-o perioadă de 2 ani două contravenții prevăzute de prezenta lege sau o contravenție pentru care legea prevede sancțiunea contravențională complementară a anulării dreptului de deținere ori, după caz, de port și folosire a armelor",
+      "a pierdut armele sau acestea i-au fost sustrase în împrejurări neimputabile acestuia"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 72,
+    "text": "Persoanele care au procurat arme neletale în condițiile notificării prealabile au obligația ca în termen de ? zile de la data procurării să se prezinte cu acestea la autoritățile competente, în vederea eliberării certificatului de deținător:",
+    "choices": [
+      "5 zile",
+      "10 zile",
+      "30 zile"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 73,
+    "text": "Manșonul-închizător:",
+    "choices": [
+      "Servește la imprimarea direcției și a mișcării de rotație",
+      "Servește la așezarea cocoșului în poziție armată și introducerea cartușului în cameră",
+      "Servește la aducerea închizătorului în poziția de dinainte"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 74,
+    "text": "Tragerea cu orice categorie de armament trebuie să fie precedată de:",
+    "choices": [
+      "încheierea contractului de prestări servicii cu societatea care deține poligonul",
+      "pregătirea tragerii",
+      "informarea poliției cu privire la activitatea care urmează să se desfășoare"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 75,
+    "text": "Care din măsurile enumerate mai jos constituie măsură complementară la aplicarea sancțiunii contravenționale, conform Legii 295/2004 republicată privind regimul armelor și al munițiilor?",
+    "choices": [
+      "Suspendarea dreptului de deținere, respectiv de port și folosire a armelor pe o perioadă de 6 luni",
+      "Suspendarea dreptului de deținere, respectiv de port și folosire a armelor pe o perioadă de 12 luni",
+      "Anularea dreptului de deținere, respectiv de port și folosire a armelor pe o perioadă de 6 luni"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 76,
+    "text": "Persoana care a procurat în condițiile legii, o armă letală are obligația să se prezinte la organul de poliție care a emis autorizația, în vederea eliberării permisului de armă sau, după caz, înscrierea armei în acest document:",
+    "choices": [
+      "în termen de 3 zile lucrătoare de la data achiziției, în cazul armelor procurate din România, având asupra sa arma și 2 cartușe corespunzătoare",
+      "în termen de 15 zile lucrătoare de la data achiziției, în cazul armelor procurate personal din afara teritoriului României, având asupra sa arma și 5 cartușe corespunzătoare",
+      "în termen de 5 zile lucrătoare de la data achiziției, în cazul armelor procurate din România, având asupra sa arma și 5 cartușe corespunzătoare"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 77,
+    "text": "Conform Legii nr. 295/2004 și normelor de aplicare, privind păstrarea și asigurarea securității armelor letale și a munițiilor:",
+    "choices": [
+      "titularul dreptului de deținere sau, după caz, port și folosire, este obligat să păstreze armele letale și munițiile acestora, la domiciliul sau reședința menționată în permisul de armă, în dulapuri metalice, încuiate și asigurate, astfel încât să nu permită accesul persoanelor neautorizate",
+      "titularul dreptului de deținere sau, după caz, port și folosire, este obligat să păstreze armele letale și munițiile acestora, la domiciliul sau reședința menționată în permisul de armă, în dulapuri metalice special amenajate, fixate în perete sau în pardoseală, încuiate și asigurate, astfel încât să nu permită accesul persoanelor neautorizate",
+      "titularul dreptului de deținere sau, după caz, port și folosire, este obligat să păstreze armele letale și munițiile acestora, la domiciliul sau la adresa altor imobile pe care le are în proprietate, în casete metalice special amenajate, fixate în perete, încuiate și asigurate, astfel încât să nu permită accesul persoanelor neautorizate"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 78,
+    "text": "Încredințarea armelor letale supuse autorizării, pentru care s-a obținut dreptul de deținere, respectiv port și folosire de către posesorii acestora, unor persoane neautorizate în condițiile Legii 295/2004, constituie:",
+    "choices": [
+      "contravenție și se pedepsește cu amendă, precum și sancțiunea complementară de anulare a dreptului de deținere, port și folosire a armelor",
+      "contravenție și se pedepsește cu amendă, precum și sancțiunea complementară de anulare a dreptului de deținere, port și folosire a armelor și respectiv de confiscarea armelor sau, după caz, a munițiilor",
+      "infracțiune și se pedepsește cu închisoare de la 3 luni la 1 an"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 79,
+    "text": "Uzul de armă letală, fără drept, constituie infracțiune și se pedepsește:",
+    "choices": [
+      "cu închisoare de la 1–3 ani",
+      "cu închisoare de la 2–6 ani",
+      "cu închisoare de la 3 luni–2 ani"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 80,
+    "text": "Cantitatea de muniție care poate fi deținută de către titularii dreptului de a purta și folosi arme de tir este de:",
+    "choices": [
+      "cel mult 1.000 de cartușe pentru fiecare armă pentru care are dreptul de port și folosire",
+      "cel puțin 500 de cartușe pentru fiecare armă pentru care are dreptul de port și folosire",
+      "doar 400 de cartușe pentru fiecare armă pentru care are dreptul de port și folosire"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 81,
+    "text": "În sensul Legii nr. 295/2004 privind regimul armelor şi al muniţiilor, arma reprezintă:",
+    "choices": [
+      "orice obiect sau dispozitiv a cărui funcţionare determină aruncarea unuia sau mai multe proiectile, substanțe explozive, aprinse sau luminoase, amestecuri incendiare ori împrăștierea de gaze nocive, iritante sau de neutralizare, în măsura în care se regăsește în una dintre categoriile prevăzute în anexă",
+      "orice obiect cu ţeavă care poate arunca, este concepută să arunce sau poate fi transformată să arunce alice, un glonţ ori un proiectil prin acțiunea unui combustibil de propulsie",
+      "orice obiect care, pentru aruncarea proiectilului, foloseşte forţa de expansiune a aerului comprimat sau a gazelor sub presiune aflate într-o butelie-recipient"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 82,
+    "text": "Dulapurile sau, după caz, casetele metalice special amenajate pentru păstrarea armelor și munițiilor trebuie:",
+    "choices": [
+      "să fie prevăzute cu compartimente diferite care să fie asigurate fiecare cu câte un sistem de închidere, pentru păstrarea muniției separat de arme",
+      "să fie prevăzute cu compartimente care să fie asigurate cu sistem de închidere, pentru păstrarea muniției la un loc cu armele",
+      "să fie prevăzute cu compartimente care să fie asigurate cu sistem de închidere, pentru păstrarea muniției separat de arme"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 83,
+    "text": "Armele de apărare și pază pot fi procurate numai de către următoarele categorii de persoane:",
+    "choices": [
+      "demnitarii, magistrații, diplomații, militarii, polițiștii și polițiștii locali, pe perioada cât sunt în activitate",
+      "persoanele incluse în programe de protecția martorilor, pe perioada în care au această calitate, cât și după ce au ieșit din programul de protecția martorilor",
+      "persoanele prevăzute de lege, care îndeplinesc o funcție ce implică exercițiul autorității publice, pe perioada în care au această calitate"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 84,
+    "text": "În cazul declarării furtului, pierderii sau distrugerii, în state terțe, a documentului de călătorie în care sunt înscrise armele, componentele esențiale și munițiile cu care a ieșit de pe teritoriul României, acesta trebuie:",
+    "choices": [
+      "să se prezinte cu armele înscrise în document la Misiunea Diplomatică sau Oficiul Consular al României din statul unde s-a produs evenimentul, care eliberează titularului o adeverință...",
+      "să anunțe telefonic, de îndată, autoritatea emitentă a documentului de călătorie din România",
+      "să se prezinte cu armele înscrise în document la autoritatea emitentă, în momentul revenirii pe teritoriul României"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 85,
+    "text": "Rudele sau persoanele care locuiesc împreună cu o persoană ce deține în mod legal arme ori muniții au obligația ca, în cazul în care deținătorul a decedat sau este declarat dispărut, să anunțe cea mai apropiată unitate de poliție și să depună armele și munițiile respective la cel mai apropiat armurier:",
+    "choices": [
+      "în termen de 15 zile de la data decesului ori, după caz, a rămânerii definitive a hotărârii judecătorești de declarare a dispariției",
+      "în termen de 10 zile de la data decesului ori, după caz, a rămânerii definitive a hotărârii judecătorești de declarare a decesului",
+      "în termen de 20 zile de la data decesului ori, după caz, a rămânerii definitive a hotărârii judecătorești de declarare a dispariției"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 86,
+    "text": "Posesorii de arme neletale supuse notificării care doresc să scoată definitiv de pe teritoriul României o armă neletală din categoria celor supuse notificării, procurată în condițiile legii:",
+    "choices": [
+      "pot scoate arma cu respectarea obligației de a solicita organului de poliție care i-a eliberat permisul de armă eliberarea unei autorizații...",
+      "nu pot scoate arma din această categorie de pe teritoriul României, cu excepția persoanelor care îndeplinesc o funcție ce implică exercitarea autorității publice",
+      "pot scoate arma cu respectarea obligației de a solicita în prealabil organului de poliție în a cărui evidență se află arma, eliberarea avizului de scoatere definitivă din România a armei neletale și a muniției acesteia"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 87,
+    "text": "Portul armelor letale și neletale, fără drept, în sediul autorităților publice, instituțiilor publice, sau a altor persoane juridice de interes public, ori în spațiile rezervate desfășurării procesului electoral reprezintă:",
+    "choices": [
+      "contravenție și se pedepsește cu amendă contravențională și anularea dreptului de a deține, purta și folosi arme letale/neletale",
+      "infracțiune și se pedepsește cu închisoare de la unu la 5 ani și interzicerea unor drepturi",
+      "infracțiune și se pedepsește cu închisoare de la unu la 5 ani"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 88,
+    "text": "Permisul de armă eliberat de autoritățile competente are o valabilitate de:",
+    "choices": [
+      "trei ani, termen care se calculează de la data eliberării sau de la data ultimei prelungiri",
+      "cinci ani, termen care se calculează de la data eliberării sau de la data ultimei prelungiri",
+      "patru ani, termen care se calculează de la data eliberării sau de la data ultimei prelungiri"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 89,
+    "text": "Pentru a se prezenta la examenul de absolvire a cursului, persoana acceptată să urmeze cursul de instruire teoretică și practică are obligația de a parcurge în proporție de ? programul de pregătire:",
+    "choices": [
+      "80%",
+      "90%",
+      "100%"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 90,
+    "text": "Titularul dreptului de deținere sau, după caz port și folosire, este obligat să păstreze armele letale și munițiile acestora, la domiciliul sau reședința menționată în permisul de armă, în dulapuri metalice special amenajate:",
+    "choices": [
+      "fixate în perete sau în pardoseală, încuiate și asigurate, astfel încât să nu permită accesul persoanelor neautorizate",
+      "fixate în perete și în pardoseală, încuiate și asigurate, astfel încât accesul să poată fi permis doar membrilor de familie care locuiesc la aceeași adresă",
+      "fixate în perete sau în pardoseală, încuiate și asigurate, cu excepția situației în care titularul dreptului se află la domiciliu"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 91,
+    "text": "Dreptul de a purta și folosi arme se poate acorda solicitantului, după cum urmează:",
+    "choices": [
+      "pentru cel mult trei arme de apărare și pază",
+      "pentru cel mult două arme de apărare și pază",
+      "pentru o singură armă de apărare și pază"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 92,
+    "text": "Personalul care urmează să desfășoare în incinta poligonului activități permanente de supraveghere a activităților care se desfășoară în această incintă, precum și activități de instruire și îndrumare a persoanelor care desfășoară activități de antrenament trebuie să dețină:",
+    "choices": [
+      "atestat de instructor",
+      "atestat de agent de securitate",
+      "certificat de instruire teoretică și practică pe linie de arme și muniții"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 93,
+    "text": "Pierderea permisului de armă se declară:",
+    "choices": [
+      "în termen de 48 de ore de la constatare, la organul de poliție în a cărui rază de competență teritorială a fost constatată pierderea",
+      "în termen de 24 de ore de la constatare, la organul de poliție în a cărui rază de competență teritorială a fost constatată pierderea",
+      "în termen de 48 de ore de la constatare, la organul de poliție care l-a eliberat"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 94,
+    "text": "Cumpărarea dintr-o țară străină și introducerea fără drept pe teritoriul României a unei arme supuse autorizării, conform Legii 295/2004 republicată, constituie:",
+    "choices": [
+      "Infracțiune",
+      "Contravenție",
+      "Infracțiune, numai dacă este comisă de un cetățean român împreună cu un cetățean străin sau apatrid"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 95,
+    "text": "Rudele sau persoanele care locuiesc împreună cu o persoană ce deține în mod legal arme ori muniții au obligația ca, în cazul în care deținătorul a decedat sau este declarat dispărut, să anunțe cea mai apropiată unitate de poliție și să depună armele și munițiile respective la cel mai apropiat armurier:",
+    "choices": [
+      "în termen de 5 zile de la data decesului, ori, după caz, a rămânerii definitive a hotărârii judecătorești de declarare a dispariției",
+      "în termen de 10 zile de la data decesului, ori, după caz, a rămânerii definitive a hotărârii judecătorești de declarare a decesului",
+      "în termen de 15 zile de la data decesului, ori, după caz, a rămânerii definitive a hotărârii judecătorești de declarare a dispariției"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 96,
+    "text": "Persoana care ia cunoștință despre existența unei arme militare, a unei arme letale, a unei arme neletale ori a munițiilor deținute ilegal, pierdute sau abandonate, este obligată:",
+    "choices": [
+      "să anunțe de îndată cel mai apropiat organ de poliție",
+      "să le predea, în termen de 24 de ore, la cel mai apropiat organ de poliție",
+      "ca în termen de 3 zile de la constatare, să anunțe cel mai apropiat organ de poliție"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 97,
+    "text": "Autorizația de procurare a armelor are o valabilitate de:",
+    "choices": [
+      "90 de zile de la data depunerii pentru eliberarea autorizației",
+      "90 de zile de la data emiterii autorizației",
+      "90 de zile de la data înmânării autorizației către titular"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 98,
+    "text": "Fac parte din categoria D – arme și muniții supuse notificării:",
+    "choices": [
+      "Armele de semnalizare",
+      "Arbaletele",
+      "Armele de asomare"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 99,
+    "text": "Vânătorii pot procura arme de vânătoare, precum și arme de tir:",
+    "choices": [
+      "din toate categoriile de arme",
+      "numai din categoria armelor lungi",
+      "atât din categoria armelor lungi cât și din categoria armelor scurte"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 100,
+    "text": "Muniția destinată armelor letale se poate păstra legal astfel:",
+    "choices": [
+      "împreună cu una dintre armele de vânătoare sau de tir pentru care titularul are drept de port și folosire, o cantitate de cel mult 10 cartușe cu proiectil aferente armei",
+      "împreună cu armele de apărare și pază, o cantitate de cel mult 12 cartușe cu proiectil aferente fiecărei arme",
+      "numai în dulapuri metalice, în sertare ale corpurilor de mobilier, sau în compartimente separate față de cele în care se păstrează armele pentru care este destinată, fără excepții"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 101,
+    "text": "Care este termenul de valabilitate al unei autorizații de transport al armelor eliberată titularului dreptului de deținere al acestora?",
+    "choices": [
+      "de cel mult 30 de zile",
+      "de cel mult 15 zile",
+      "de cel mult 5 zile"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 102,
+    "text": "Nedepunerea armei și a muniției la un armurier autorizat în termen de 10 zile de la expirarea perioadei de valabilitate a permisului de armă constituie infracțiune și se pedepsește astfel:",
+    "choices": [
+      "suspendarea autorizației de deținere și port armă pe durata de 6 luni",
+      "cu închisoare de la 6 luni - 3 ani",
+      "amendă"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 103,
+    "text": "De la data la care au fost folosite în întregime spaţiile destinate vizelor şi menţiunilor din permisul de armă sau au intervenit orice fel de schimbări care necesită modificarea unor menţiuni corespunzătoare din conţinutul documentului, titularul autorizaţiei de procurare a armelor sau, după caz, al permisului de armă este obligat să anunţe organul de poliţie competent teritorial, în termen de:",
+    "choices": [
+      "5 zile",
+      "10 zile",
+      "30 zile"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 104,
+    "text": "Colecționarii de arme, titulari ai dreptului de deținere, pot fi autorizați să dețină un număr maxim de:",
+    "choices": [
+      "zece cartușe, pentru câte o singură armă de fiecare calibru",
+      "cincizeci de cartușe, pentru câte o singură armă de fiecare calibru",
+      "o sută de cartușe, pentru câte o singură armă de fiecare calibru"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 105,
+    "text": "Un mod de clasificare a armelor de vânătoare se face astfel:",
+    "choices": [
+      "după greutatea țevii, cu aparatele de ochire",
+      "după lungimea țevii, în care se prevede și camera cartușului",
+      "după configurația interiorului țevii și implicit după tipul muniției folosite"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 106,
+    "text": "Termenul în care persoana autorizată să dețină, să poarte sau să folosească arme letale trebuie să solicite radierea armei după înstrăinare este:",
+    "choices": [
+      "3 zile",
+      "10 zile",
+      "15 zile"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 107,
+    "text": "Deținerea sau portul fără drept de arme neletale din categoria celor supuse autorizării, reprezintă:",
+    "choices": [
+      "infracțiune și se pedepsește cu închisoare de la unu la 5 ani",
+      "infracțiune și se pedepsește cu închisoare de la 3 luni la 2 ani și interzicerea exercitării unor drepturi",
+      "infracțiune și se pedepsește cu închisoare de la 3 luni la un an sau cu amendă"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 108,
+    "text": "Falsificarea sau ștergerea, înlăturarea ori modificarea fără drept a marcajelor de pe arme de foc constituie infracțiune și se pedepsește:",
+    "choices": [
+      "cu închisoare de la doi la patru ani",
+      "cu amendă",
+      "cu închisoare de la un an la trei ani sau cu amendă"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 109,
+    "text": "Care este termenul în care o persoană fizică trebuie să se prezinte la organul de poliție... în cazul în care arma a fost procurată din afara teritoriului României:",
+    "choices": [
+      "10 zile lucrătoare de la data achiziției",
+      "15 zile lucrătoare de la data achiziției",
+      "3 zile lucrătoare de la data achiziției"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 110,
+    "text": "Titularul dreptului de deținere a armelor, în cazul aplicării măsurii de suspendare sau anulare a permisului de armă, are obligația să depună armele la un armurier autorizat... și să depună dovada acestui fapt la organele de poliție competente:",
+    "choices": [
+      "în termen de 30 de zile de la data aplicării măsurii de suspendare sau anulare a permisului de armă",
+      "în termen de 30 de zile de la data luării la cunoștință a măsurii de suspendare sau anulare a permisului de armă",
+      "în termen de 45 de zile de la data aplicării măsurii de suspendare sau anulare a permisului de armă"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 111,
+    "text": "Dreptul de deținere a armei se poate acorda numai pentru:",
+    "choices": [
+      "armele de vânătoare",
+      "armele de colecție și de autoapărare",
+      "armele de vânătoare, de tir, de colecție și de autoapărare"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 112,
+    "text": "În cazul în care au fost folosite în întregime spațiile destinate vizelor și mențiunilor din permisul de armă de tip B, posesorul permisului este obligat:",
+    "choices": [
+      "nu are nicio obligație, permisul de armă tip B urmând a fi preschimbat cu ocazia prelungirii valabilității acestuia",
+      "să anunțe organul de poliție competent teritorial, în termen de 30 zile de la data când s-a ivit evenimentul",
+      "să anunțe organul de poliție competent teritorial, în termen de 10 zile de la data când s-a ivit evenimentul"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 113,
+    "text": "Conform definiției din Legea nr. 295/2004 privind regimul armelor și al munițiilor, armele de colecție reprezintă:",
+    "choices": [
+      "armele destinate a fi piese de muzeu, precum și armele, aflate sau nu în stare de funcționare, care constituie rarități sau care au valoare istorică, artistică, științifică ori documentară",
+      "armele de foc care constituie rarități sau care au valoare istorică și care au fost făcute definitiv improprii folosirii, prin dezactivare...",
+      "armele de colecție fabricate într-un număr limitat cu ocazia împlinirii a cel puțin 50 de ani de la apariția modelului..."
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 114,
+    "text": "În vederea solicitării acordării permisului de armă sau, după caz, pentru înscrierea armei în permisul de armă, persoana care a procurat, în condițiile legii, arme letale sau neletale supuse autorizării, are obligația să se prezinte la organul de poliție care a eliberat autorizația de procurare, în termen de:",
+    "choices": [
+      "3 zile calendaristice",
+      "3 zile lucrătoare",
+      "24 de ore"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 115,
+    "text": "După comunicarea dispoziției de anulare/suspendare a autorizării și de retragere a permisului de armă, deținătorul este obligat să prezinte la organul de poliție competent permisul de armă, împreună cu documentul care face dovada înstrăinării sau depunerii armelor și, după caz, al munițiilor corespunzătoare la un armurier autorizat, cu excepția situației în care acestea sunt luate în custodie de organele de poliție:",
+    "choices": [
+      "în termen de 5 zile de la data luării la cunoștință",
+      "în termen de 10 zile de la data luării la cunoștință",
+      "în termen de 30 de zile de la data luării la cunoștință"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 116,
+    "text": "Deținătorii armelor letale sau neletale sunt obligați să anunțe cel mai apropiat organ de poliție despre dispariția, pierderea sau furtul acestor arme:",
+    "choices": [
+      "în termen de 48 de ore",
+      "de îndată, dar nu mai târziu de 24 de ore",
+      "în termen de maximum trei zile de la constatare"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 117,
+    "text": "În vederea înregistrării proiectilului și a tubului-martor în evidențele operative, deținătorul armei are obligația să prezinte la solicitarea organului de poliție competent:",
+    "choices": [
+      "fiecare armă cu țeavă lisă, împreună cu câte 5 cartușe corespunzătoare calibrului fiecărei arme",
+      "fiecare armă cu țeavă ghintuită, împreună cu câte 5 cartușe corespunzătoare calibrului fiecărei arme",
+      "fiecare armă de tir cu țeavă ghintuită, împreună cu câte 10 cartușe corespunzătoare calibrului fiecărei arme"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 118,
+    "text": "Armele de apărare și pază pot fi procurate numai de către următoarele categorii de persoane:",
+    "choices": [
+      "demnitarii, magistrații, diplomații, militarii și polițiștii, doar în perioada cât sunt în activitate",
+      "persoanele prevăzute de lege, care îndeplinesc o funcție ce implică exercițiul autorității publice, pe perioada în care au această calitate și după încetarea activității, pensionare, trecerea în rezervă sau retragere, după caz, cu excepția situației în care aceștia și-au pierdut calitatea din motive imputabile lor",
+      "persoanele incluse în programe de protecția martorilor, pe perioada în care au această calitate"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 119,
+    "text": "Din categoria armelor de foc, din punct de vedere al destinației, fac parte:",
+    "choices": [
+      "arme militare, arme de tir, arme cu aer comprimat sau cu gaz sub presiune",
+      "arme militare, arme de apărare și pază, arme de vânătoare",
+      "arme de foc cu repetiție, arme cu aer comprimat sau cu gaz sub presiune, arme cu tranchilizante"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 120,
+    "text": "Titularul dreptului de a purta și folosi arme de apărare și pază, care a făcut uz de armă, are obligația:",
+    "choices": [
+      "să anunțe de îndată cel mai apropiat organ de poliție, indiferent dacă au rezultat sau nu victime ori pagube materiale",
+      "să anunțe de îndată cel mai apropiat organ de poliție, doar dacă au rezultat victime",
+      "să anunțe de îndată cel mai apropiat organ de poliție, doar dacă au rezultat victime ori pagube materiale"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 121,
+    "text": "Câte cartușe corespunzătoare calibrului fiecărei arme cu țeavă ghintuită trebuie să prezinte deținătorul armei la solicitarea organului de poliție competent, în vederea înregistrării proiectilului și a tubului martor în evidențele operative ale Inspectoratului General al Poliției Române?",
+    "choices": [
+      "3 cartușe",
+      "5 cartușe",
+      "10 cartușe"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 122,
+    "text": "Constituirea contravenției:",
+    "choices": [
+      "fapta săvârșită cu vinovăție, stabilită și sancționată ca atare prin lege, prin hotărâre a Guvernului ori prin hotărâre a consiliului local al comunei, orașului, municipiului sau al sectorului municipiului București, a consiliului județean ori a Consiliului General al Municipiului București",
+      "fapta săvârșită cu pericol social mai redus și este prevăzută în legi și acte normative",
+      "fapta săvârșită care are ca urmare vătămarea corporală și este prevăzută în legi și acte normative"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 123,
+    "text": "În ce termen titularul dreptului de a purta și folosi arme de vânătoare, care a înstrăinat temporar arma, trebuie să notifice organul de poliție competent despre această situație:",
+    "choices": [
+      "în termen de 2 zile anterior datei înstrăinării armei de vânătoare",
+      "în termen de 2 zile de la data înstrăinării armei de vânătoare",
+      "legal nu există această obligație"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 124,
+    "text": "Titularul dreptului de a purta și folosi arme de vânătoare poate încredința temporar arma deținută și muniția aferentă:",
+    "choices": [
+      "unei alte persoane din familie",
+      "unei persoane autorizate pentru portul și folosirea unor astfel de arme, în vederea utilizării la vânătoare",
+      "unei alte persoane, sub formă de gaj sau alte forme de garanție"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 125,
+    "text": "În cazul armelor de apărare și pază, care este cantitatea maximă de muniție ce poate fi deținută de către titularul dreptului de deținere, respectiv de port și folosire a armelor letale?",
+    "choices": [
+      "100 de cartușe cu glonț și 50 de cartușe fără proiectil pentru fiecare armă",
+      "50 de cartușe cu glonț și 50 de cartușe fără proiectil pentru toate armele, indiferent de calibru",
+      "50 de cartușe cu glonț pentru câte o singură armă de fiecare calibru"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 126,
+    "text": "În termen de câte zile de la data luării la cunoștință a măsurii suspendării sau anulării dreptului de port și folosire a armelor letale, titularul este obligat să depună armele și întreaga cantitate de muniție deținută la un armurier autorizat, în vederea înstrăinării sau depozitării:",
+    "choices": [
+      "30 zile",
+      "10 zile",
+      "15 zile"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 127,
+    "text": "Titularul dreptului de deținere sau de port și folosire a armelor letale care vrea să depună spre păstrare armele și muniția la un armurier autorizat, poate transporta prin mijloace proprii, în același timp:",
+    "choices": [
+      "un număr maxim de 5 arme",
+      "un număr maxim de 10 arme",
+      "toate armele pe care le are înscrise în permisul de armă"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 128,
+    "text": "Titularii dreptului de a purta și folosi arme de apărare și pază pot face uz de armă:",
+    "choices": [
+      "numai în poligoanele autorizate în condițiile prezentei legi",
+      "numai în caz de stare de necesitate",
+      "numai în poligoanele autorizate în condițiile prezentei legi sau în caz de legitimă apărare ori stare de necesitate"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 129,
+    "text": "Armele de foc se clasifică din punct de vedere constructiv astfel:",
+    "choices": [
+      "arme de tir, de vânătoare cu glonț, cu alice sau mixte",
+      "arme de foc scurte, lungi, automate sau semiautomate",
+      "arme cu aer comprimat sau cu gaze sub presiune și arme de tir neletale"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 130,
+    "text": "Cantitatea de muniție înscrisă în permisul de armă este de:",
+    "choices": [
+      "40 de cartușe cu glonț și cel mult 40 de cartușe fără proiectil pentru câte o singură armă de fiecare calibru (pentru armele de apărare și pază)",
+      "cel puțin 50 de cartușe cu glonț și 50 de cartușe fără proiectil pentru câte o singură armă de fiecare calibru (pentru armele de apărare și pază)",
+      "cel mult 100 de cartușe cu glonț și 50 de cartușe fără proiectil pentru fiecare armă (pentru armele de apărare și pază)"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 131,
+    "text": "Anularea dreptului de port și folosire a armelor letale, conform Legii nr. 295/2004 se face când titularul dreptului se află în una din următoarele situații:",
+    "choices": [
+      "renunță să mai dețină armele înscrise în permisul de armă",
+      "nu se prezintă până la împlinirea termenului prevăzut de lege pentru prelungirea valabilității permisului de armă",
+      "a înstrăinat permisul de armă unor persoane neautorizate"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 132,
+    "text": "Replicile de arme de tip airsoft:",
+    "choices": [
+      "Nu sunt supuse autorizării sau notificării prealabile",
+      "Sunt supuse autorizării",
+      "Sunt supuse notificării prealabile"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 133,
+    "text": "Posesorii armelor de vânătoare pot achiziționa și deține pentru o singură armă de fiecare calibru, dintre cele pentru care au drept de port și folosire, un număr maxim de:",
+    "choices": [
+      "25 de cartușe",
+      "500 de cartușe",
+      "1000 de cartușe"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 134,
+    "text": "Comercializarea sau înstrăinarea sub altă formă, precum și deținerea ori utilizarea de muniție expirată sau degradată, care prin păstrare sau folosire ar pune în pericol viața sau integritatea corporală a persoanelor reprezintă:",
+    "choices": [
+      "infracțiune și se pedepsește conform Codului Penal",
+      "contravenție și se sancționează contravențional",
+      "legal nu este prevăzută ca infracțiune sau contravenție"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 135,
+    "text": "Demontarea parțială a armelor cu închizător sau manșon închizător se execută în următoarea succesiune:",
+    "choices": [
+      "se scoate încărcătorul din mânerul pistolului, se scoate manșonul închizător, se scoate arcul recuperator de pe țeavă",
+      "se scoate manșonul închizător, se scoate arcul recuperator și apoi se scoate încărcătorul din mânerul pistolului",
+      "se scoate manșonul închizător, se scoate încărcătorul din mânerul pistolului și apoi se scoate arcul recuperator"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 136,
+    "text": "Termenul de valabilitate al permisului de armă tip A și tip B este de:",
+    "choices": [
+      "3 ani, termen care se calculează de la data eliberării sau, după caz, de la data ultimei prelungiri",
+      "5 ani, termen care se calculează de la data eliberării sau, după caz, de la data ultimei prelungiri",
+      "nelimitat"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 137,
+    "text": "Titularul dreptului de a folosi și purta arme de foc letale are obligația:",
+    "choices": [
+      "de a păstra arma înscrisă în permisul de armă în condiții de securitate, astfel încât să nu permită accesul la aceasta al persoanelor neautorizate",
+      "de a păstra arma la domiciliu/reședință",
+      "de a păstra arma înscrisă în permisul de armă în condiții de securitate, astfel încât să permită accesul la aceasta al persoanelor neautorizate"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 138,
+    "text": "Operațiunea de curățare a mecanismului de dare a focului, la armele de vânătoare, se execută de către:",
+    "choices": [
+      "armurier",
+      "orice vânător",
+      "proprietarul armei"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 139,
+    "text": "Procurarea, deținerea, portul, utilizarea, testarea, evaluarea, importul, exportul și comercializarea sistemelor de ochire pe timp de noapte, destinate armelor:",
+    "choices": [
+      "sunt permise doar persoanelor fizice",
+      "sunt permise atât persoanelor juridice cât și persoanelor fizice",
+      "sunt interzise persoanelor fizice"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 140,
+    "text": "Uzul de armă neletală din categoria celor supuse autorizării, fără drept, în urma căruia nu au fost constatate pagube materiale și nu s-a adus atingere integrității vreunei persoane, constituie:",
+    "choices": [
+      "contravenție și se pedepsește cu amendă și anularea dreptului de a deține arme neletale",
+      "infracțiune și se pedepsește cu închisoare de la 6 luni la 2 ani",
+      "nu este incriminată de lege în cazul în care organele de poliție au fost anunțate imediat după producerea acestuia"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 141,
+    "text": "În cazul armelor de vânătoare, cantitatea maximă de muniție care poate fi deținută de titularul dreptului de deținere, respectiv port și folosire a armelor letale, este:",
+    "choices": [
+      "500 de cartușe pentru câte o singură armă de fiecare calibru, dintre cele pentru care are dreptul de port și folosire",
+      "300 de cartușe pentru fiecare armă deținută, dintre cele pentru care are dreptul de port și folosire",
+      "300 de cartușe pentru câte o singură armă de fiecare calibru, dintre cele pentru care are dreptul de port și folosire"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 142,
+    "text": "Armele de apărare și pază pot fi procurate de către:",
+    "choices": [
+      "persoanele care au împlinit vârsta de 18 ani și au discernământ",
+      "persoanele care nu au pierdut sau nu le-au fost sustrase în ultimii 3 ani arme letale sau arme neletale",
+      "persoanele prevăzute de lege, care îndeplinesc o funcție ce implică exercițiul autorității publice, pe perioada în care au această calitate, cu excepția personalului de pază din cadrul societăților specializate de pază"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 143,
+    "text": "Vânătorii pot procura:",
+    "choices": [
+      "arme de vânătoare, precum și arme de tir numai din categoria armelor lungi",
+      "arme de vânătoare, precum și arme de tir",
+      "arme de vânătoare, arme de autoapărare și arme de tir"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 144,
+    "text": "Armele de foc automate, precum și muniția corespunzătoare, conform Anexei 1 din Legea 295/2004, fac parte din categoria:",
+    "choices": [
+      "arme și muniții letale supuse autorizării",
+      "arme și muniții neletale supuse autorizării",
+      "arme și muniții interzise"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 145,
+    "text": "Deținătorii armelor letale sau neletale sunt obligaţi să anunţe despre dispariția, pierderea sau furtul acestor arme:",
+    "choices": [
+      "în termen de cel mult 48 de ore, la organul de poliţie care a autorizat deţinerea",
+      "de îndată, dar nu mai târziu de 24 de ore, la cel mai apropiat organ de poliţie",
+      "de îndată, dar nu mai târziu de 24 de ore de la data publicării pierderii ori furtului în Monitorul Oficial al României"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 146,
+    "text": "Procurarea armelor letale se poate realiza prin cumpărare, donație, moștenire, sponsorizare, închiriere sau comodat. Nerespectarea acestor obligații reprezintă:",
+    "choices": [
+      "infracțiune și se pedepsește cu închisoare de la 6 luni la 2 ani",
+      "contravenție și se pedepsește cu amendă, precum și sancțiunile complementare de anulare a dreptului de deținere, port și folosire a armelor, respectiv confiscarea armelor",
+      "contravenție și se pedepsește cu amendă, precum și sancțiunea complementară de anulare a dreptului de deținere, port și folosire a armelor"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 147,
+    "text": "Una dintre condițiile care trebuie îndeplinită de către o persoană care dorește să fie autorizată în vederea procurării unei arme letale este că respectiva persoană:",
+    "choices": [
+      "nu a fost condamnată, prin hotărâre judecătorească rămasă definitivă, la pedeapsa închisorii mai mare de un an, cu executare sau cu suspendare, pentru infracțiuni comise cu intenție",
+      "nu a fost condamnată, prin hotărâre judecătorească rămasă definitivă, la pedeapsa detențiunii pe viață sau pedeapsa închisorii mai mare de un an, cu executare sau cu suspendare, sau amendă penală, pentru infracțiuni comise cu intenție",
+      "nu a fost condamnată, prin hotărâre judecătorească rămasă definitivă, la pedeapsa detențiunii pe viață sau pedeapsa închisorii mai mare de un an, cu executare, pentru infracțiuni comise cu intenție"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 148,
+    "text": "Pierderea permiselor de armă se declară:",
+    "choices": [
+      "în termen de 48 de ore de la constatare, la organul de poliție care l-a emis",
+      "în termen de 48 de ore de la constatare, la organul de poliție în a cărui rază de competență teritorială a fost constatat",
+      "în termen de 24 de ore de la constatare, la organul de poliție care l-a emis"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 149,
+    "text": "Prin uz de armă, în sensul Legii nr. 295/2004 privind regimul armelor și al munițiilor, se înțelege:",
+    "choices": [
+      "manipularea sau încărcarea unei arme, ori folosirea acesteia în vederea amenințării unei persoane",
+      "executarea tragerii cu o armă urmată de producerea unei pagube materiale sau a unei victime",
+      "executarea tragerii cu o armă"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 150,
+    "text": "În cazul armelor de vânătoare sau de tir pentru care titularul are drept de port și folosire, poate fi păstrată cu o singură armă dintre acestea:",
+    "choices": [
+      "o cantitate nelimitată de cartușe",
+      "o cantitate de cel mult 12 cartușe cu proiectil",
+      "o cantitate de cel mult 10 cartușe cu proiectil"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 151,
+    "text": "Cetățenii români, rezidenții statelor membre sau străinii cu domiciliul, reședința sau, după caz, locul de rezidență în România, care au împlinit vârsta de 18 ani și doresc să procure arme și muniții neletale în scopul portului și folosirii de la un armurier sau intermediar autorizat de pe teritoriul României trebuie:",
+    "choices": [
+      "să solicite autorizarea procurării armelor neletale supuse autorizării, prevăzute în categoria D din anexa la Legea nr. 295/2004 privind regimul armelor și munițiilor",
+      "să notifice în prealabil organul de poliție competent teritorial, în cazul armelor neletale supuse notificării, prevăzute în categoria B din anexa la Legea nr. 295/2004 privind regimul armelor și munițiilor",
+      "să solicite autorizarea procurării armelor neletale supuse autorizării, prevăzute în categoria C din anexa la Legea nr. 295/2004 privind regimul armelor și munițiilor"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 152,
+    "text": "Ulterior expirării termenului de valabilitate al permisului de armă, titularul mai are dreptul:",
+    "choices": [
+      "doar de a deține armele și muniția înscrise în permisul de armă, până la reautorizare",
+      "de a deține și purta o singură dată armele și muniția înscrise în permisul de armă, cu scopul exclusiv de a le depune la un armurier autorizat... într-o perioadă de maximum 30 de zile de la data expirării",
+      "de a deține, purta și folosi în continuare armele și muniția înscrise în permisul de armă încă 30 de zile"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 153,
+    "text": "Nerespectarea obligației de a prezenta și permite controlul armelor, pieselor și munițiilor deținute, la solicitarea organelor de poliție, constituie:",
+    "choices": [
+      "contravenție, sancționată cu amendă contravențională și măsura complementară de confiscare a armelor, sau după caz, a munițiilor",
+      "contravenție și se pedepsește cu amendă, precum și sancțiunea complementară de suspendare a dreptului de deținere, port și folosire a armelor pentru o perioadă de 6 luni",
+      "contravenție, sancționată cu amendă contravențională și măsura complementară de anulare a dreptului de a deține, purta și folosi arme letale/neletale"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 154,
+    "text": "Codul penal definește „infracțiunea” ca fiind:",
+    "choices": [
+      "fapta care nu prezintă pericol social, săvârșită cu vinovăție și prevăzută de legea penală",
+      "fapta care prezintă pericol social, săvârșită cu nevinovăție și prevăzută de legea penală",
+      "fapta care prezintă pericol social, săvârșită cu vinovăție și prevăzută de legea penală"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 155,
+    "text": "Exercitarea căilor de atac prevăzute de lege împotriva măsurii suspendării sau anulării dreptului de deținere a armelor de către persoana titulară a dreptului, aflată în această situație:",
+    "choices": [
+      "suspendă obligația persoanei de a depune armele la un armurier autorizat, până la data rămânerii definitive a hotărârii judecătorești",
+      "suspendă obligația persoanei de a depune armele la un armurier autorizat, pentru o perioadă de 30 de zile",
+      "nu suspendă obligația persoanei de a depune armele la un armurier autorizat"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 156,
+    "text": "Care este termenul de valabilitate al autorizației de scoatere temporară din țară a armelor și munițiilor (persoane fizice)?",
+    "choices": [
+      "se stabilește în funcție de perioada de valabilitate a vizei de intrare ori a dreptului de ședere în statul de destinație, precum și după caz, a datelor cuprinse în documentele depuse, în funcție de scopul deplasării",
+      "90 de zile",
+      "180 de zile"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 157,
+    "text": "Ghinturile servesc la:",
+    "choices": [
+      "reducerea reculului armei",
+      "încetinirea vitezei inițiale a glonțului",
+      "imprimarea mișcării de rotație a glonțului în jurul axei proprii"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 158,
+    "text": "Cererea privind eliberarea unei autorizații de procurare a unei arme letale este refuzată în situația în care solicitantul:",
+    "choices": [
+      "a fost condamnat, prin hotărâre judecătorească rămasă definitivă, la pedeapsa detențiunii pe viață sau pedeapsa închisorii mai mare de un an",
+      "a fost condamnat, prin hotărâre judecătorească rămasă definitivă, la pedeapsa detențiunii pe viață sau pedeapsa închisorii mai mare de un an, cu executare, pentru infracțiuni comise cu intenție",
+      "a fost condamnat, prin hotărâre judecătorească rămasă definitivă, la pedeapsa detențiunii pe viață sau pedeapsa închisorii mai mare de 5 ani"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 159,
+    "text": "Organul de poliție competent refuză prelungirea valabilității permisului de armă în cazul în care solicitantul:",
+    "choices": [
+      "refuză să se supună examinării medicale și/sau psihologice când există indicii temeinice ce reclamă necesitatea examinării, în termen de 30 de zile de la primirea solicitării din partea organului de poliție și/sau recomandării de reexaminare",
+      "a pierdut armele sau acestea i-au fost sustrase în împrejurări neimputabile acestuia",
+      "a săvârșit într-o perioadă de 4 ani două contravenții prevăzute de legea 295/2004 privind regimul armelor și al munițiilor, dintre cele pentru care legea nu prevede sancțiunea contravențională complementară a anulării dreptului de deținere ori, după caz, de port și folosire a armelor"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 160,
+    "text": "Titularul dreptului de deținere al armelor letale supuse autorizării, poate transporta armele la un armurier autorizat?",
+    "choices": [
+      "da, cu condiția să notifice în maxim 2 zile de la transport organele de poliție",
+      "da, cu condiția să solicite anterior organelor de poliție o autorizație de transport a acestora",
+      "da, transportul putând fi făcut în baza permisului de armă tip A, permis în care armele sunt înscrise"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 161,
+    "text": "Titularul dreptului de deținere a unei arme letale poate să o folosească într-un poligon autorizat, în condițiile legii:",
+    "choices": [
+      "da, fără a fi necesară îndeplinirea vreunei proceduri de autorizare din partea autorității competente",
+      "da, în baza autorizației temporare de transport și folosire a armei eliberată la cerere, de către structura de poliție competentă în a cărei rază teritorială își are domiciliul sau, după caz, reședința, dacă armele au inspecția tehnică efectuată în ultimii 5 ani",
+      "nu, armele pentru care titularul a obținut dreptul de deținere nu pot fi folosite, ele pot fi scoase din incinta locului unde sunt păstrate doar cu ocazia depunerii la un armurier autorizat sau cu ocazia schimbării locului unde sunt păstrate"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 162,
+    "text": "Permisul de armă, așa cum este definit în Legea nr. 295/2004, este:",
+    "choices": [
+      "documentul emis, în condițiile legii, de autoritatea competentă, prin care o persoană fizică dovedește dreptul de a deține arme letale sau neletale supuse autorizării, ale căror tip, marcă, serie și calibru sunt înscrise în acest document, precum și muniția aferentă",
+      "documentul emis, în condițiile legii, de autoritatea competentă, prin care o persoană fizică dovedește dreptul de a deține și, după caz, de a purta și folosi arme letale sau arme neletale supuse autorizării, ale căror tip, marcă, serie și calibru sunt înscrise în acest document, precum și muniția aferentă",
+      "documentul emis, în condițiile legii, de autoritatea competentă, prin care o persoană fizică dovedește dreptul de a deține și, după caz, de a purta și folosi arme letale ale căror marcă și serie sunt înscrise în acest document, precum și muniția aferentă"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 163,
+    "text": "Armele deținute de persoanele fizice pot fi închiriate sau date în comodat:",
+    "choices": [
+      "numai după ce acestea au fost înregistrate la autoritățile competente",
+      "numai prin intermediul unui armurier",
+      "de la data procurării acestora"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 164,
+    "text": "Falsificarea sau ștergerea, înlăturarea ori modificarea, fără drept, a marcajelor de pe arme:",
+    "choices": [
+      "se pedepsește cu închisoare de la 3 luni la un an sau cu amendă, în cazul armelor neletale",
+      "se pedepsește cu închisoare de la un an la 3 ani sau cu amendă, în cazul armelor letale",
+      "se pedepsește cu închisoare de la un an la 3 ani sau cu amendă, în cazul armelor letale și al armelor neletale"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 165,
+    "text": "Primul ajutor în caz de plăgi tăiate sau împușcate:",
+    "choices": [
+      "constă în aplicarea pe plagă a unui pansament pentru oprirea sângerării și a evitării infecției acesteia și nu se acordă la locul accidentului",
+      "în caz de rănire a abdomenului se aplică pansament circular, iar rănitul se așază pe spate",
+      "în cazul hemoragiilor arteriale, garoul poate fi menținut strâns mai mult de 2 ore"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 166,
+    "text": "Armele de foc care, după fiecare cartuș tras, se reîncarcă automat, dar nu pot trage o serie de mai multe cartușe prin apăsarea continuă pe trăgaci sunt:",
+    "choices": [
+      "Arme de foc cu repetiție",
+      "Arme de foc automate",
+      "Arme de foc semiautomate"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 167,
+    "text": "Muniția destinată armelor de colecție, muniție care este înscrisă în permisul de armă tip A, poate fi folosită de către posesorul armei de colecție:",
+    "choices": [
+      "cu ocazia unor manifestări culturale, artistice sau istorice, fără acordul poliției",
+      "într-un poligon autorizat, fără acordul poliției",
+      "numai în locul unde se află arma deținută sau colecția, în caz de legitimă apărare"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 168,
+    "text": "Armele de foc lungi, letale, a căror muniție dezvoltă o putere cinetică la gura țevii ce depășește 10.000 jouli, pot fi procurate:",
+    "choices": [
+      "în vederea portului și folosirii, ca arme de foc cu destinația vânătoare",
+      "în vederea portului și folosirii, ca arme de foc cu destinația tir sportiv",
+      "în vederea deținerii, ca arme de foc cu destinația colecție"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 169,
+    "text": "Manșonul închizător este destinat:",
+    "choices": [
+      "pentru reîncărcarea pistolului și contribuie la extragerea tubului cartuș",
+      "pentru a dirija mișcarea glonțului",
+      "pentru a declanșa cocoșul"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 170,
+    "text": "Cantitatea maximă de muniție care poate fi procurată și deținută de către titularii dreptului de deținere a armelor letale este de:",
+    "choices": [
+      "50 cartușe cu glonț și 100 de cartușe fără proiectil, pentru fiecare armă, în cazul armelor de apărare și pază",
+      "300 cartușe pentru o singură armă de fiecare calibru, în cazul armelor de vânătoare, dintre cele pentru care are dreptul de port și folosire",
+      "10 cartușe pentru câte o singură armă de fiecare calibru, în cazul armelor de colecție"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 171,
+    "text": "Dreptul de deținere, port și folosire a armelor se anulează dacă titularul se află în una dintre următoarele situații:",
+    "choices": [
+      "este inculpat în cauze penale pentru fapte săvârșite cu intenție",
+      "există indici comportamentale temeinice care reclamă examinarea de urgență psihologică și/sau medicală în vederea verificării aptitudinilor persoanei și menținerii autorizării pentru a deține arme și muniții letale",
+      "a pierdut armele sau acestea i-au fost sustrase în împrejurări imputabile acestuia"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 172,
+    "text": "Armele letale care pot fi folosite la vânătoare sunt:",
+    "choices": [
+      "Armele de vânătoare, de tir și cu glonț",
+      "Armele de vânătoare cu una sau mai multe țevi care folosesc muniție cu glonț sau/și cu alice",
+      "Armele de apărare și pază cu una sau mai multe țevi"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 173,
+    "text": "Pierderea muniției corespunzătoare armelor letale sau neletale supuse autorizării atrage:",
+    "choices": [
+      "răspunderea contravențională și suspendarea dreptului de deținere, port și folosire a armelor pentru o perioadă de 6 luni",
+      "răspunderea contravențională și anularea dreptului de deținere, port și folosire a armelor",
+      "răspunderea penală"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 174,
+    "text": "În sensul Legii nr. 295/2004 privind regimul armelor și al munițiilor, arma de foc reprezintă:",
+    "choices": [
+      "orice obiect sau dispozitiv a cărui funcționare determină aruncarea unuia sau mai multe proiectile, substanțe explozive, aprinse sau luminoase, amestecuri incendiare ori împrăștierea de gaze nocive, iritante sau de neutralizare",
+      "orice armă portabilă cu țeavă care poate arunca, este concepută să arunce sau poate fi transformată să arunce alice, un glonț ori un proiectil prin acțiunea unui combustibil de propulsie",
+      "orice obiect sau dispozitiv care poate arunca un glonț"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 175,
+    "text": "Colecționarii de arme, titulari ai dreptului de deținere, pot fi autorizați să dețină un număr maxim de cartușe:",
+    "choices": [
+      "nu au voie să dețină muniție, aceștia având doar dreptul de deținere asupra armei",
+      "25 cartușe, pentru câte o singură armă de fiecare calibru",
+      "10 cartușe, pentru câte o singură armă de fiecare calibru"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 176,
+    "text": "Persoanele care au procurat arme neletale în condițiile notificării prealabile au obligația să se prezinte cu acestea la autorități, în vederea eliberării certificatului de deținător, în termen de:",
+    "choices": [
+      "5 zile de la data procurării",
+      "10 zile de la data procurării",
+      "3 zile de la data procurării"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 177,
+    "text": "Persoanele care sunt dotate cu arme de foc pot face uz de armă, pentru îndeplinirea atribuțiilor de serviciu sau a misiunilor militare, în următoarea situație:",
+    "choices": [
+      "În situația în care s-ar viola, în mod intenționat, teritoriul, spațiul aerian sau apele naționale ale unui stat vecin",
+      "Împotriva animalelor care pun în pericol viața sau integritatea corporală proprie sau a altor persoane",
+      "Împotriva persoanelor care încearcă să pătrundă sau să iasă în mod legal din sediul unităților și subunităților militare"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 178,
+    "text": "Nedeclararea furtului, pierderii, deteriorării sau distrugerii permisului de armă, în termenul de 48 de ore de la constatare constituie:",
+    "choices": [
+      "infracțiune, pedepsită cu închisoare de la 3 luni la un an, sau cu amendă",
+      "contravenție, sancționată cu amendă contravențională",
+      "contravenție... și măsura complementară de anulare..."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 179,
+    "text": "Cantitatea de muniție aferentă armelor de tir este de cel mult:",
+    "choices": [
+      "300 de cartușe",
+      "1.000 de cartușe",
+      "100 de cartușe"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 180,
+    "text": "Persoana care ia cunoștință despre existența unei arme militare, a unei arme letale, a unei arme neletale ori a munițiilor deținute ilegal, pierdute sau abandonate, este obligată să:",
+    "choices": [
+      "Anunțe orice organ de poliție în termen de maxim 24 de ore de la constatare",
+      "Anunțe de îndată cel mai apropiat organ de poliție",
+      "Anunțe organul de poliție în a cărui rază teritorială de competență a fost identificată, în maxim 48 de ore"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 181,
+    "text": "Pentru eliberarea atestatului de colecționar, persoana care dorește să dețină arme de colecție trebuie să îndeplinească următoarea condiție specială:",
+    "choices": [
+      "să fie titular al dreptului de deținere sau port și folosire a minim 5 arme letale sau neletale supuse autorizării",
+      "să fie titular al dreptului de deținere sau port și folosire a minim 15 arme letale sau neletale supuse autorizării",
+      "să fie înregistrat într-o asociație de vânătoare sau asociație de tir sportiv de cel puțin 2 ani"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 182,
+    "text": "Referitor la portul armelor de tir:",
+    "choices": [
+      "armele nu trebuie ținute în huse sau în cutii",
+      "armele trebuie ținute în huse sau, după caz, în cutii neîncărcate cu muniție și asigurate împotriva pierderii ori sustragerii",
+      "armele trebuie ținute în huse sau, după caz, în cutii încărcate cu muniție"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 183,
+    "text": "Armele letale scurte de colecție pot fi procurate de colecționari, cu excepția armelor de foc proiectate, după anul:",
+    "choices": [
+      "1980",
+      "1945",
+      "1965"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 184,
+    "text": "Titularul dreptului de deținere a armelor poate fi autorizat de către organul de poliție competent teritorial, la cerere, să scoată armele deținute în condițiile legii din incinta locului unde acestea sunt păstrate, în următoarea situație:",
+    "choices": [
+      "cu ocazia schimbării locului de muncă sau detașării în altă localitate a titularului",
+      "pe timpul deplasării prin locuri cu nivel ridicat de pericol",
+      "cu ocazia depunerii armelor la un armurier"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 185,
+    "text": "Deținătorii armelor letale sau neletale sunt obligați să anunțe cel mai apropiat organ de poliție despre dispariția, pierderea sau furtul acestor arme:",
+    "choices": [
+      "de îndată, dar nu mai târziu de 12 ore de la data constatării",
+      "de îndată, dar nu mai târziu de 24 de ore de la data constatării",
+      "de îndată, dar nu mai târziu de 48 de ore de la data constatării"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 186,
+    "text": "Dreptul de deținere a armelor se anulează dacă titularul se află în una dintre următoarele situații:",
+    "choices": [
+      "refuză să se supună examinării medicale și/sau psihologice când există indicii temeinice ce reclamă necesitatea examinării, în termen de 30 de zile de la primirea solicitării din partea organului de poliție și/sau recomandării de reexaminare",
+      "există indici comportamentale temeinice care reclamă examinarea de urgență psihologică și/sau medicală în vederea verificării aptitudinilor persoanei și menținerii autorizării pentru a deține arme și muniții letale",
+      "a pierdut armele sau acestea i-au fost sustrase în împrejurări neimputabile acestuia"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 187,
+    "text": "Neexecutarea obligației de a prezenta pentru control armele, componentele esențiale și munițiile deținute, la solicitarea organelor de poliție, atrage:",
+    "choices": [
+      "răspunderea contravențională și suspendarea dreptului de deținere, port și folosire a armelor letale sau neletale",
+      "răspunderea contravențională și anularea dreptului de deținere, port și folosire a armelor letale sau neletale",
+      "răspunderea penală"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 188,
+    "text": "Dreptul de a purta și folosi arme se poate acorda solicitantului, după cum urmează:",
+    "choices": [
+      "pentru un număr nelimitat de arme de apărare și pază",
+      "pentru două arme de apărare și pază",
+      "pentru două arme de tir"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 189,
+    "text": "Cantitatea de muniție pentru arme letale, care poate fi deținută de persoanele autorizate se înscrie:",
+    "choices": [
+      "în permisul de armă de către organul de poliție care eliberează acest document",
+      "în certificatul de deținător de către organul de poliție care eliberează acest document",
+      "în permisul de armă de către armurierul autorizat, care eliberează acest document"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 190,
+    "text": "Persoana care a făcut uz de armă este obligată:",
+    "choices": [
+      "Să conserve probele de la fața locului prin delimitarea zonei și interzicerea accesului oricăror persoane",
+      "Să cheme doi martori pentru a asista la imobilizarea persoanei rănite",
+      "Să acționeze imediat pentru a se acorda primul ajutor și asistența medicală persoanelor rănite"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 191,
+    "text": "Titularul permisului de armă este obligat să anunțe organul de poliție competent teritorial în situația în care a intervenit schimbarea adresei de domiciliu sau de reședință, înscrisă în act:",
+    "choices": [
+      "în termen de 10 zile înainte de data când se ivește evenimentul",
+      "în termen de 10 zile de la data când s-a ivit evenimentul",
+      "în termen de 30 de zile de la data când s-a ivit evenimentul"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 192,
+    "text": "Suspendarea dreptului de port și folosire a armelor letale se dispune de către organele competente în următoarele situații:",
+    "choices": [
+      "există indicii comportamentale temeinice care reclamă examinarea de urgență psihologică și/sau medicală în vederea verificării aptitudinilor persoanei și menținerii autorizării pentru a deține arme și muniții letale",
+      "se constată că, la acordarea permisului de armă, nu îndeplinea condițiile prevăzute de lege pentru portul și folosirea armelor",
+      "există indicii temeinice că dreptul de port și folosire a armelor s-a acordat pe baza unor documente sau informații false"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 193,
+    "text": "Dreptul de deținere, respectiv port și folosire al armelor neletale supuse autorizării se suspendă dacă:",
+    "choices": [
+      "nu se prezintă la termenul prevăzut de lege de 5 ani, pentru prelungirea valabilității permisului de armă",
+      "se constată că la data acordării permisului de armă, nu îndeplinea condițiile prevăzute de lege",
+      "este inculpat în cauze penale pentru fapte săvârșite cu intenție"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 194,
+    "text": "Dreptul de deținere, port și folosire a armelor se anulează dacă titularul se află în una dintre următoarele situații:",
+    "choices": [
+      "a săvârșit, într-o perioadă de 5 ani, 2 contravenții prevăzute de Legea 295/2004",
+      "există indicii comportamentale temeinice care reclamă examinarea de urgență psihologică și/sau medicală, în vederea verificării aptitudinilor persoanei și menținerii autorizării pentru a deține arme și muniții letale",
+      "a pierdut armele sau acestea i-au fost sustrase în împrejurări imputabile acestuia"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 195,
+    "text": "În termen de câte zile de la data luării la cunoștință a măsurii suspendării sau anulării dreptului de port și folosire a armelor letale, titularul este obligat să facă dovada faptului că a depus armele și întreaga cantitate de muniție deținută la un armurier autorizat, în vederea înstrăinării sau depozitării, cu excepția celor care se ridică de către organele de poliție:",
+    "choices": [
+      "10 zile",
+      "15 zile",
+      "30 zile"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 196,
+    "text": "Este greșită următoarea afirmație:",
+    "choices": [
+      "Armele vechi sunt arme letale produse până în anul 1899 inclusiv sau reproduceri ale acestora, destinate să fie păstrate în colecții",
+      "Armele cu tranchilizante sunt arme utilitare destinate imobilizării animalelor prin injectarea de substanțe tranchilizante",
+      "Armele de autoapărare sunt arme lungi, cu potențial letal, special confecționate pentru a împrăștia gaze nocive, iritante sau proiectile din cauciuc, în scop de autoapărare"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 197,
+    "text": "Colecționarii de arme, titulari ai dreptului de deținere pot fi autorizați să dețină un număr maxim de:",
+    "choices": [
+      "10 cartușe, pentru câte o singură armă de fiecare calibru",
+      "25 cartușe, pentru câte o singură armă de fiecare calibru",
+      "50 cartușe, pentru câte o singură armă de fiecare calibru"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 198,
+    "text": "Armurierul reprezintă:",
+    "choices": [
+      "persoana care desfășoară activități de instruire, îndrumare și supraveghere a tragerilor efectuate în poligoanele autorizate",
+      "orice persoană fizică sau juridică, autorizată, a cărei activitate constă în achiziționarea, comercializarea sau realizarea de transferuri de arme",
+      "orice persoană fizică sau juridică autorizată să desfășoare una ori mai multe operațiuni cu arme, componente esențiale și muniții"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 199,
+    "text": "Titularul permisului de armă este obligat să anunțe organul de poliție competent teritorial în situația în care a intervenit schimbarea adresei de domiciliu sau de reședință, înscrisă în act:",
+    "choices": [
+      "în termen de 3 zile lucrătoare de la data când s-a ivit evenimentul",
+      "în termen de 10 zile lucrătoare de la data când s-a ivit evenimentul",
+      "în termen de 30 de zile lucrătoare de la data când s-a ivit evenimentul"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 200,
+    "text": "Remedierea unui incident apărut pe linia de tragere se execută astfel:",
+    "choices": [
+      "numai de către armurierul autorizat",
+      "de trăgător",
+      "de instructorul de tragere, după darea comenzii de încetare a tragerii"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 201,
+    "text": "Muniția destinată armelor letale se păstrează numai în dulapuri metalice, în casete sau, după caz, în compartimente separate față de cele în care se păstrează armele pentru care este destinată, cu următoarea excepție:",
+    "choices": [
+      "în cazul armelor de apărare și pază, poate fi păstrată împreună cu aceasta o cantitate de cel mult 10 cartușe destinate unei singure arme",
+      "în cazul armelor de vânătoare sau de tir pentru care titularul are drept de port și folosire, poate fi păstrată cu o singură armă dintre acestea, o cantitate de 12 cartușe cu proiectil",
+      "în cazul armelor de vânătoare sau de tir pentru care titularul are drept de port și folosire, poate fi păstrată cu o singură armă dintre acestea, o cantitate de 10 cartușe cu proiectil"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 202,
+    "text": "Din punct de vedere al destinației, în sensul Legii nr. 295/2004 privind regimul armelor și al munițiilor, armele de autoapărare sunt:",
+    "choices": [
+      "arme scurte sau lungi, cu potențial letal, special confecționate pentru a împrăștia gaze nocive, iritante, de neutralizare sau proiectile din cauciuc, în scop de autoapărare",
+      "arme scurte, cu potențial letal, special confecționate pentru a împrăștia gaze nocive, iritante, de neutralizare sau proiectile din cauciuc, în scop de autoapărare",
+      "arme scurte, cu potențial letal, special confecționate pentru a împrăștia gaze nocive, iritante, de neutralizare sau proiectile metalice tip glonț, în scop de autoapărare"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 203,
+    "text": "În ceea ce privește deținerea armelor și munițiilor supuse autorizării:",
+    "choices": [
+      "Persoana care procură arme letale are obligația ca, în termen de 3 zile lucrătoare de la data procurării, să se prezinte la organul de poliție care a eliberat autorizația de procurare, în vederea eliberării permisului de armă",
+      "Persoana care procură arme letale are obligația ca, în termen de 5 zile lucrătoare de la data procurării, să se prezinte la organul de poliție care a eliberat autorizația de procurare, în vederea eliberării permisului de armă",
+      "Persoana care procură arme letale are obligația ca, în termen de 24 de ore de la data procurării, să se prezinte la organul de poliție care a eliberat autorizația de procurare, în vederea eliberării permisului de armă"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 204,
+    "text": "Persoanele fizice care nu sunt titulare ale dreptului de deținere sau, după caz, de port și folosire a armelor letale, pot deține arme în proprietate numai în următoarele situații:",
+    "choices": [
+      "au devenit proprietari în urma încheierii unei proceduri succesorale sau unei donații",
+      "au primit arma în dar de la un titular al dreptului de deținere sau, după caz, port și folosire a armelor letale",
+      "legal nu este posibil ca o persoană care nu este titulară a dreptului de deținere sau, după caz, port și folosire a armelor letale, să dețină acest tip de arme"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 205,
+    "text": "Autorizația de procurare a armelor se eliberează:",
+    "choices": [
+      "cu o valabilitate de 90 de zile, care poate fi prelungită... pentru o nouă perioadă de până la 90 zile",
+      "cu o valabilitate de 30 de zile, care poate fi prelungită... pentru o nouă perioadă de până la 30 zile",
+      "cu o valabilitate de 90 de zile, care poate fi prelungită... pentru o nouă perioadă de până la 45 zile"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 206,
+    "text": "În situația în care, la data expirării perioadei de valabilitate a permisului de armă, titularul se află sub măsura suspendării a dreptului de deținere sau de port și folosire a armelor, acesta este obligat să depună la organul de poliție competent documentele prevăzute de lege în vederea prelungirii valabilității permisului de armă:",
+    "choices": [
+      "în termen de trei luni de la data încetării măsurii de suspendare a dreptului de deținere sau port și folosire a armelor",
+      "până la data expirării valabilității permisului de armă, chiar dacă se află sub măsura suspendării",
+      "în termen de 30 de zile de la data încetării măsurii de suspendare a dreptului de deținere sau port și folosire a armelor"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 207,
+    "text": "Armele din categoria A din anexa Legii 295/2004 republicată pot fi deținute și folosite:",
+    "choices": [
+      "De persoanele care au semnat de primire, în registrul de predare-primire a armamentului",
+      "De titularii autorizației eliberată în condițiile Legii 295/2004 republicată",
+      "Numai de către instituțiile publice din domeniul apărării, ordinii publice și siguranței naționale"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 208,
+    "text": "Neîndeplinirea obligației de a nu înstrăina autorizația de procurare a armei, certificatul de deținător sau permisul de armă de către titular reprezintă:",
+    "choices": [
+      "contravenție și se sancționează cu amendă",
+      "contravenție și se sancționează cu amendă, aplicându-se măsura complementară de suspendare a dreptului de deținere, de port și folosire a armelor pentru o perioadă de 6 luni",
+      "contravenție și se sancționează cu amendă, aplicându-se măsura complementară de retragere definitivă a autorizației"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 209,
+    "text": "Persoanele care îndeplinesc condițiile legale pot fi autorizate să procure din România, având în vedere scopul pentru care se solicită autorizarea:",
+    "choices": [
+      "un număr nelimitat de arme, din categoria arme de vânătoare și arme de tir sportiv",
+      "un număr nelimitat de arme, din categoria arme de autoapărare și arme de tir sportiv",
+      "un număr nelimitat de arme, din categoria arme de apărare și pază și arme de tir sportiv"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 210,
+    "text": "Persoana care a procurat din România, în condițiile legii, o armă letală are obligația să se prezinte, în vederea eliberării permisului de armă sau, după caz, a înscrierii armei în acest document:",
+    "choices": [
+      "la organul de poliție în raza căruia a procurat arma, în termen de 5 zile lucrătoare de la data procurării",
+      "la organul de poliție care a eliberat autorizația de procurare, în termen de 3 zile lucrătoare de la data procurării",
+      "la cel mai apropiat organ de poliție, în termen de 3 zile calendaristice de la data procurării"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 211,
+    "text": "În cazul în care se refuză autorizarea procurării armelor de către autoritatea competentă, refuzul:",
+    "choices": [
+      "Este supus controlului unității de parchet competent teritorial",
+      "Este supus controlului compartimentului juridic al unității de poliție care a eliberat refuzul",
+      "Este supus controlului judecătoresc potrivit legii contenciosului administrativ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 212,
+    "text": "Pentru procurarea unei arme de asomare este necesar ca persoana care dorește procurarea acesteia să solicite organelor de poliție competente:",
+    "choices": [
+      "Eliberarea unei autorizații de procurare",
+      "Eliberarea dovezii notificării prealabile",
+      "Nu este necesară obținerea vreunei autorizații sau dovezi, aceasta putând fi achiziționată fără îndeplinirea vreunei formalități"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 213,
+    "text": "Permisul de armă, așa cum este definit în Legea nr. 295/2004, este:",
+    "choices": [
+      "documentul emis în condițiile legii, de autoritatea competentă, prin care o persoană fizică dovedește dreptul de a deține și după caz de a purta și folosi arme letale sau arme neletale nesupuse autorizării...",
+      "documentul emis în condițiile legii, de autoritatea competentă, prin care o persoană fizică dovedește dreptul de a deține și după caz de a purta și folosi arme letale sau arme neletale supuse notificării...",
+      "documentul emis în condițiile legii, de autoritatea competentă, prin care o persoană fizică dovedește dreptul de a deține și după caz, de a purta și folosi arme letale sau arme neletale supuse autorizării, al căror tip, marcă, serie și calibru sunt înscrise în acest document, precum și muniția aferentă"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 214,
+    "text": "Armele și munițiile destinate pentru un scop utilitar sau pentru agrement ori pentru autoapărare, confecționate astfel încât, pentru utilizarea lor, să nu se cauzeze moartea persoanelor sunt:",
+    "choices": [
+      "arme și muniții supuse notificării",
+      "arme și muniții de tip airsoft",
+      "arme și muniții neletale"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 215,
+    "text": "Ce este legitima apărare?",
+    "choices": [
+      "este în legitimă apărare persoana care săvârșește fapta pentru a înlătura un atac material, direct, imediat și injust, care pune în pericol persoana sa, a altuia, drepturile acestora sau un interes general, dacă apărarea este proporțională cu gravitatea atacului",
+      "este în legitimă apărare persoana care săvârșește fapta pentru a salva de la un pericol iminent și care nu putea fi înlăturat altfel, viața, integritatea corporală sau sănătatea sa, a altuia sau un bun important al său, ori al altuia, sau un interes public",
+      "este în legitimă apărare persoana care săvârșește fapta pentru a înlătura un atac material, direct, imediat și injust, care pune în pericol persoana sa, a altuia, drepturile acestora sau un interes general"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 216,
+    "text": "Eliberarea unui nou permis de armă în locul celui declarat pierdut sau furat se face numai după ce titularul:",
+    "choices": [
+      "prezintă dovada notificării Inspectoratului General al Poliției de Frontieră cu privire la pierderea sau furtul acestuia",
+      "prezintă dovada publicării pierderii ori furtului în Monitorul Oficial al României",
+      "anunță organele de poliție care au eliberat respectivul document cu privire la pierderea sau furtul acestuia și consemnează în scris toate cele întâmplate"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 217,
+    "text": "Procurarea armelor letale de către persoane fizice se poate realiza:",
+    "choices": [
+      "prin cumpărare, donație, moștenire, sponsorizare, închiriere sau comodat",
+      "prin cumpărare, moștenire, transfer, gaj sau închiriere",
+      "doar prin cumpărare"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 218,
+    "text": "Cantitatea maximă de muniție care poate fi procurată și deținută de către titularul dreptului de deținere a armelor letale este de:",
+    "choices": [
+      "100 cartușe cu glonț și 50 cartușe fără proiectil, pentru fiecare calibru, în cazul armelor de apărare și pază",
+      "10 cartușe pentru câte o singură armă de fiecare calibru, în cazul armelor de colecție",
+      "300 cartușe pentru o singură armă de fiecare calibru, în cazul armelor de vânătoare, dintre cele pentru care are dreptul de port și folosire"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 219,
+    "text": "Persoana care găsește o armă neletală supusă autorizării este obligată:",
+    "choices": [
+      "să o predea sau să anunțe de îndată cel mai apropiat organ de poliție",
+      "să o predea sau să anunțe de îndată cel mai apropiat organ de poliție în termen de 24 de ore",
+      "să o predea sau să anunțe de îndată cel mai apropiat organ de poliție în termen de 15 zile"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 220,
+    "text": "Condițiile cumulative de acordare a autorizației de procurare a armelor letale sunt:",
+    "choices": [
+      "au împlinit vârsta de 16 ani, și au discernământ dovedit",
+      "nu le-a fost anulat în ultimii 2 ani dreptul de procurare, deținere sau, după caz, port și folosire a armelor letale ori a armelor neletale supuse autorizării, cu excepția situațiilor în care măsura anulării s-a dispus ca urmare a pierderii calității prevăzute la art. 14 alin. (2)-(5)",
+      "nu au pierdut sau nu le-au fost sustrase în ultimii 3 ani arme letale sau arme neletale supuse autorizării, din motive imputabile lor, procurate în condițiile prezentei legi"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 221,
+    "text": "Arma de asomare este definită ca fiind:",
+    "choices": [
+      "armă de foc utilitară, semiautomată, destinată unui scop industrial",
+      "armă utilitară folosită pentru imobilizarea animalelor în scopul sacrificării ulterioare",
+      "armă letală produsă înainte de 1899 inclusiv sau reproduceri ale acesteia destinată colecțiilor"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 222,
+    "text": "În termen de 30 zile de la data luării la cunoștință a măsurii suspendării sau anulării dreptului de port și folosire a armelor letale, titularul este obligat:",
+    "choices": [
+      "să facă dovada faptului că a depus armele și întreaga cantitate de muniție deținută la un armurier autorizat, cu excepția celor care se ridică de către organele de poliție",
+      "să facă dovada faptului că a înstrăinat legal armele și întreaga cantitate de muniție la un alt deținător autorizat",
+      "să facă dovada faptului că a depus armele și întreaga cantitate de muniție deținută într-un loc sigur, amenajat și securizat"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 223,
+    "text": "Una din condițiile prevăzute de Legea 295/2004... pentru acordarea autorizației de procurare a armelor neletale prevăzute în categoria C este:",
+    "choices": [
+      "persoana solicitantă nu este inculpată în cauze penale pentru fapte săvârșite cu intenție sau din culpă",
+      "nu au pierdut sau nu le-au fost sustrase în ultimii 2 ani arme letale sau arme neletale supuse autorizării, din motive imputabile lor",
+      "a absolvit un curs de instruire teoretică și practică, organizat de o persoană juridică autorizată..."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 224,
+    "text": "Cumpărarea unei arme neletale de la o persoană fizică sau juridică de către titularul unei autorizații de procurare a armelor se face prin intermediul:",
+    "choices": [
+      "unui armurier sau intermediar autorizat să comercializeze arme",
+      "unui posesor de permis de armă tip B",
+      "unui posesor autorizat de arme din aceeași categorie"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 225,
+    "text": "Permisul de armă, așa cum este definit în Legea nr. 295/2004, este:",
+    "choices": [
+      "documentul emis prin care se dovedește faptul că titularul acestuia a îndeplinit procedura legală de înregistrare a armelor neletale la această autoritate, având dreptul de a purta și folosi arma și muniția corespunzătoare, pe baza documentelor depuse, cu excepția armelor neletale supuse autorizării",
+      "documentul emis prin care se acordă persoanei angajate, pe bază de contract de muncă, dreptul de a purta și folosi arma și muniția corespunzătoare, înscrise în acest document, în timpul și pentru executarea sarcinilor de serviciu",
+      "documentul emis prin care o persoană fizică dovedește dreptul de a deține și, după caz, de a purta și folosi arme letale și neletale supuse autorizării, ale căror tip, marcă, serie și calibru sunt înscrise în acest document, precum și muniția aferentă"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 226,
+    "text": "În cazul în care au intervenit orice fel de schimbări care necesită modificarea unor mențiuni în conținutul permisului de armă, titularul acestuia este obligat să anunțe organul de poliție competent în termen de:",
+    "choices": [
+      "5 zile",
+      "10 zile",
+      "15 zile"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 227,
+    "text": "Prima intervenție la fața locului, în cazul producerii unui accident într-un poligon autorizat, trebuie să aibă în vedere:",
+    "choices": [
+      "Degajarea căilor respiratorii și asigurarea funcției respiratorii a victimei",
+      "Igienizarea și pansarea rănilor victimei",
+      "Spălarea rănilor victimei"
+    ],
+    "correctIndex": 0
+  }
+]

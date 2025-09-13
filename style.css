@@ -1,0 +1,154 @@
+/* ---------- Premium Dark Theme ---------- */
+:root{
+  --bg:#0b0f1a;
+  --ink:#eaf0ff;
+  --muted:#a9b2c7;
+  --card:#0f1524;
+  --glass:rgba(255,255,255,.04);
+  --border:rgba(255,255,255,.10);
+  --primary:#5e86ff;
+  --ok:#1a7d3a; --ok-bg:#e9f8ef;
+  --no:#b02a2a; --no-bg:#ffecec;
+  --choice:#141b2e; --choice-hover:#1b2440; --choice-brd:#22305b;
+}
+
+*{box-sizing:border-box}
+html,body{margin:0;height:100%}
+body{
+  font-family:Inter,ui-sans-serif,system-ui,Segoe UI,Roboto,Helvetica,Arial;
+  background:
+    radial-gradient(1200px 800px at 10% -10%, #1a2250 0%, transparent 60%),
+    radial-gradient(1000px 700px at 120% 10%, #162049 0%, transparent 60%),
+    var(--bg);
+  color:var(--ink);
+  line-height:1.55;
+}
+
+.container{max-width:980px;margin:0 auto;padding:20px 16px}
+.brand{font-weight:800;letter-spacing:.2px;margin:0}
+.subtitle{margin:.2rem 0 0;color:var(--muted)}
+.site-footer{color:var(--muted);font-size:.95rem;padding-bottom:28px}
+
+/* Cards */
+.card{border:1px solid var(--border);border-radius:20px;padding:20px;background:var(--card)}
+.glass{background:linear-gradient(180deg,var(--glass),transparent);backdrop-filter:blur(6px);box-shadow:0 10px 40px rgba(0,0,0,.35)}
+.title{margin:0 0 8px}
+.title.sm{font-size:1.05rem;margin-top:14px}
+.question{margin:8px 0 12px;font-weight:700}
+
+/* Panel */
+.panel.compact{display:flex;flex-direction:column;gap:16px}
+.panel-stats{display:flex;gap:10px;flex-wrap:wrap}
+.stat{display:flex;gap:8px;align-items:center;background:#0d1324;border:1px solid var(--border);border-radius:14px;padding:8px 12px}
+.stat span{color:var(--muted);font-weight:700;letter-spacing:.02em}
+.stat b{font-variant-numeric:tabular-nums}
+.stat.ok{background:var(--ok-bg);color:var(--ok)}
+.stat.no{background:var(--no-bg);color:var(--no)}
+.stat.dim{opacity:.85}
+
+/* SeteazÄƒ timp */
+.time-row{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.time-label{color:var(--muted);font-weight:700}
+.segment{display:flex;gap:8px;background:#0e1430;border:1px solid var(--border);border-radius:999px;padding:4px}
+.seg-btn{
+  background:transparent;border:none;color:#e9edff;cursor:pointer;
+  padding:8px 14px;border-radius:999px;font-weight:700
+}
+.seg-btn.active{background:var(--primary);color:#fff}
+
+/* Buttons */
+.btn{appearance:none;border:none;border-radius:12px;padding:12px 16px;cursor:pointer;font-weight:700;letter-spacing:.2px;transition:transform .06s ease,filter .15s}
+.btn:active{transform:translateY(1px)}
+.btn.primary{background:var(--primary);color:#fff}
+.btn.ghost{background:#0e1430;border:1px solid var(--border);color:#e9edff}
+.btn:hover{filter:brightness(1.06)}
+.controls{display:flex;gap:12px;flex-wrap:wrap;margin-top:14px}
+.spacer{flex:1}
+
+/* Text helpers */
+.muted{color:var(--muted)}
+.hint{color:var(--muted);margin:.25rem 0 0}
+
+/* Quiz header */
+.q-head{display:flex;align-items:center;gap:12px;justify-content:space-between;margin-bottom:12px}
+.timer{font-variant-numeric:tabular-nums;font-weight:800;color:#ffffff}
+.timer.warning{color:#ff7a70}
+
+/* Choices */
+.choices{display:flex;flex-direction:column;gap:10px}
+.choice{
+  display:flex;align-items:center;gap:10px;
+  background:var(--choice);border:1px solid var(--choice-brd);
+  padding:12px;border-radius:14px;cursor:pointer;transition:background .12s,border-color .12s
+}
+.choice:hover{background:var(--choice-hover)}
+.choice input{accent-color:var(--primary)}
+.choice input:disabled + span{opacity:.7;cursor:not-allowed}
+
+.choice.correct{background:var(--ok-bg)!important;border:2px solid var(--ok)!important;color:#0a3b1e}
+.choice.wrong{background:var(--no-bg)!important;border:2px solid var(--no)!important;color:#5a1111}
+
+/* Result + review */
+.scoreline{font-weight:800}
+.review{display:flex;flex-direction:column;gap:10px;margin-top:10px}
+.review-item{border:1px solid var(--border);border-radius:14px;padding:12px;background:#0f1527}
+.badge{padding:3px 8px;border-radius:999px;font-size:.85rem;font-weight:800}
+.badge.ok{background:var(--ok-bg);color:var(--ok);border:1px solid var(--ok)}
+.badge.no{background:var(--no-bg);color:var(--no);border:1px solid var(--no)}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 640px){
+  .q-head{flex-direction:column;align-items:flex-start;gap:6px}
+  .panel-stats{flex-direction:column;align-items:flex-start}
+  .controls{flex-direction:column;align-items:stretch}
+  .btn{width:100%;text-align:center}
+}
+
+
+/* === Premium polish additions === */
+:root{
+  --accent1:#5e86ff;
+  --accent2:#4a5eff;
+  --glass-strong:rgba(255,255,255,.06);
+}
+
+body{font-family:Inter, ui-sans-serif, system-ui, Segoe UI, Roboto, Helvetica, Arial}
+
+.logo{
+  display:inline-block;width:14px;height:14px;border-radius:4px;
+  background:linear-gradient(135deg,var(--accent1),var(--accent2));
+  box-shadow:0 2px 8px rgba(94,134,255,.6);margin-right:8px;vertical-align:-2px
+}
+
+/* Buttons: gradient primary */
+.btn.primary{
+  background:linear-gradient(135deg,var(--accent1),var(--accent2));
+  border:1px solid rgba(255,255,255,.08);
+}
+
+/* Subtle card hover */
+.card:hover{box-shadow:0 14px 48px rgba(0,0,0,.45);transition:box-shadow .25s ease}
+
+/* Progress bar */
+.progressbar{position:relative;width:100%;height:8px;background:#0b1122;border:1px solid var(--border);border-radius:999px;overflow:hidden}
+.progressbar .bar{height:100%;width:0%;background:linear-gradient(90deg,var(--accent1),var(--accent2));transition:width .25s ease}
+
+/* Animations */
+@keyframes fadeInUp{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.fade-in{animation:fadeInUp .25s ease both}
+@keyframes pulseCorrect{0%{transform:scale(1)}50%{transform:scale(1.015)}100%{transform:scale(1)}}
+@keyframes shakeWrong{0%{transform:translateX(0)}30%{transform:translateX(-4px)}60%{transform:translateX(4px)}100%{transform:translateX(0)}}
+.choice.correct{animation:pulseCorrect .25s ease}
+.choice.wrong{animation:shakeWrong .25s ease}
+
+/* Timer badge improvement */
+.timer{background:#0e1430;border:1px solid var(--border);padding:6px 10px;border-radius:10px}
+
+/* Review items polish */
+.review-item{background:linear-gradient(180deg,var(--glass-strong),transparent);}
+.review-item .q{font-weight:700;margin-bottom:6px}
+.review-item .a{color:var(--muted)}
+
+/* Small accessibility tweaks */
+.choice{line-height:1.45}
+.choice input{min-width:18px}
