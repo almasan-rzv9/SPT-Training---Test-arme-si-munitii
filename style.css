@@ -1,154 +1,351 @@
-/* ---------- Premium Dark Theme ---------- */
+/* =========================================================
+   SPT Training — Elegant Gray Theme (full rewrite)
+   ---------------------------------------------------------
+   - Fundal gri elegant, fără tentă albastră
+   - Carduri cu margini subtile și umbre moi
+   - Butoane moderne (primary / ghost / danger / outline)
+   - Layout receptiv, accesibil (focus-visible)
+   - Compatibil cu clasele existente (header, panel, grid,
+     question, choice, review, timer, stats, buttons etc.)
+   ========================================================= */
+
 :root{
-  --bg:#0b0f1a;
-  --ink:#eaf0ff;
-  --muted:#a9b2c7;
-  --card:#0f1524;
-  --glass:rgba(255,255,255,.04);
-  --border:rgba(255,255,255,.10);
-  --primary:#5e86ff;
-  --ok:#1a7d3a; --ok-bg:#e9f8ef;
-  --no:#b02a2a; --no-bg:#ffecec;
-  --choice:#141b2e; --choice-hover:#1b2440; --choice-brd:#22305b;
+  /* Culoare de bază & text */
+  --bg: #111315;            /* fundal principal (gri elegant, foarte închis) */
+  --bg-2: #14171a;          /* strat secundar pentru gradient subtil */
+  --ink: #e8e9ec;           /* text principal */
+  --muted: #b4b8bf;         /* text secundar */
+  --muted-2: #9aa0a8;
+
+  /* Suprafețe */
+  --card: #16191e;          /* plăci / carduri */
+  --elev: #1b1f25;          /* hover pe carduri / butoane */
+  --choice: #171b20;        /* opțiuni întrebări (idle) */
+  --choice-hover: #1e232a;  /* opțiuni întrebări (hover) */
+  --choice-brd: rgba(230, 235, 255, .08);
+
+  /* Accente & stări */
+  --primary: #c3c7cd;       /* accent neutru (gri-deschis) */
+  --primary-ink: #0f1113;   /* text pe buton primar */
+  --border: rgba(255,255,255,.09);
+  --border-strong: rgba(255,255,255,.14);
+  --glass: rgba(255,255,255,.04);
+  --glass-strong: rgba(255,255,255,.06);
+
+  --ok: #2ea043;   --ok-bg: #102217;
+  --no: #d03745;   --no-bg: #261317;
+
+  /* Umbre */
+  --shadow-1: 0 6px 18px rgba(0,0,0,.35);
+  --shadow-2: 0 2px 8px rgba(0,0,0,.28);
+
+  /* Rază */
+  --r-sm: 10px;
+  --r-md: 14px;
+  --r-lg: 18px;
+
+  /* Spațieri */
+  --sp-1: 6px;
+  --sp-2: 10px;
+  --sp-3: 14px;
+  --sp-4: 18px;
+  --sp-5: 24px;
+  --sp-6: 32px;
 }
 
-*{box-sizing:border-box}
-html,body{margin:0;height:100%}
+*{ box-sizing: border-box }
+html, body{ margin:0; height:100% }
+
 body{
-  font-family:Inter,ui-sans-serif,system-ui,Segoe UI,Roboto,Helvetica,Arial;
+  font-family: Inter, ui-sans-serif, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: var(--ink);
+  line-height: 1.55;
+  /* Fundal gri elegant cu două lumini difuze subtile */
   background:
-    radial-gradient(1200px 800px at 10% -10%, #1a2250 0%, transparent 60%),
-    radial-gradient(1000px 700px at 120% 10%, #162049 0%, transparent 60%),
-    var(--bg);
-  color:var(--ink);
-  line-height:1.55;
+    radial-gradient(1200px 800px at 12% -10%, rgba(255,255,255,.035) 0%, transparent 60%),
+    radial-gradient(1000px 700px at 110% 10%, rgba(255,255,255,.03) 0%, transparent 60%),
+    linear-gradient(180deg, var(--bg-2), var(--bg));
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.container{max-width:980px;margin:0 auto;padding:20px 16px}
-.brand{font-weight:800;letter-spacing:.2px;margin:0}
-.subtitle{margin:.2rem 0 0;color:var(--muted)}
-.site-footer{color:var(--muted);font-size:.95rem;padding-bottom:28px}
+/* ---------- Helpers ---------- */
+.container{ width: min(1120px, 92vw); margin: 0 auto; padding: var(--sp-5) var(--sp-4) }
+.muted{ color: var(--muted) }
+.hidden{ display:none !important }
 
-/* Cards */
-.card{border:1px solid var(--border);border-radius:20px;padding:20px;background:var(--card)}
-.glass{background:linear-gradient(180deg,var(--glass),transparent);backdrop-filter:blur(6px);box-shadow:0 10px 40px rgba(0,0,0,.35)}
-.title{margin:0 0 8px}
-.title.sm{font-size:1.05rem;margin-top:14px}
-.question{margin:8px 0 12px;font-weight:700}
-
-/* Panel */
-.panel.compact{display:flex;flex-direction:column;gap:16px}
-.panel-stats{display:flex;gap:10px;flex-wrap:wrap}
-.stat{display:flex;gap:8px;align-items:center;background:#0d1324;border:1px solid var(--border);border-radius:14px;padding:8px 12px}
-.stat span{color:var(--muted);font-weight:700;letter-spacing:.02em}
-.stat b{font-variant-numeric:tabular-nums}
-.stat.ok{background:var(--ok-bg);color:var(--ok)}
-.stat.no{background:var(--no-bg);color:var(--no)}
-.stat.dim{opacity:.85}
-
-/* SeteazÄƒ timp */
-.time-row{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
-.time-label{color:var(--muted);font-weight:700}
-.segment{display:flex;gap:8px;background:#0e1430;border:1px solid var(--border);border-radius:999px;padding:4px}
-.seg-btn{
-  background:transparent;border:none;color:#e9edff;cursor:pointer;
-  padding:8px 14px;border-radius:999px;font-weight:700
-}
-.seg-btn.active{background:var(--primary);color:#fff}
-
-/* Buttons */
-.btn{appearance:none;border:none;border-radius:12px;padding:12px 16px;cursor:pointer;font-weight:700;letter-spacing:.2px;transition:transform .06s ease,filter .15s}
-.btn:active{transform:translateY(1px)}
-.btn.primary{background:var(--primary);color:#fff}
-.btn.ghost{background:#0e1430;border:1px solid var(--border);color:#e9edff}
-.btn:hover{filter:brightness(1.06)}
-.controls{display:flex;gap:12px;flex-wrap:wrap;margin-top:14px}
-.spacer{flex:1}
-
-/* Text helpers */
-.muted{color:var(--muted)}
-.hint{color:var(--muted);margin:.25rem 0 0}
-
-/* Quiz header */
-.q-head{display:flex;align-items:center;gap:12px;justify-content:space-between;margin-bottom:12px}
-.timer{font-variant-numeric:tabular-nums;font-weight:800;color:#ffffff}
-.timer.warning{color:#ff7a70}
-
-/* Choices */
-.choices{display:flex;flex-direction:column;gap:10px}
-.choice{
-  display:flex;align-items:center;gap:10px;
-  background:var(--choice);border:1px solid var(--choice-brd);
-  padding:12px;border-radius:14px;cursor:pointer;transition:background .12s,border-color .12s
-}
-.choice:hover{background:var(--choice-hover)}
-.choice input{accent-color:var(--primary)}
-.choice input:disabled + span{opacity:.7;cursor:not-allowed}
-
-.choice.correct{background:var(--ok-bg)!important;border:2px solid var(--ok)!important;color:#0a3b1e}
-.choice.wrong{background:var(--no-bg)!important;border:2px solid var(--no)!important;color:#5a1111}
-
-/* Result + review */
-.scoreline{font-weight:800}
-.review{display:flex;flex-direction:column;gap:10px;margin-top:10px}
-.review-item{border:1px solid var(--border);border-radius:14px;padding:12px;background:#0f1527}
-.badge{padding:3px 8px;border-radius:999px;font-size:.85rem;font-weight:800}
-.badge.ok{background:var(--ok-bg);color:var(--ok);border:1px solid var(--ok)}
-.badge.no{background:var(--no-bg);color:var(--no);border:1px solid var(--no)}
-
-/* ---------- Responsive ---------- */
-@media (max-width: 640px){
-  .q-head{flex-direction:column;align-items:flex-start;gap:6px}
-  .panel-stats{flex-direction:column;align-items:flex-start}
-  .controls{flex-direction:column;align-items:stretch}
-  .btn{width:100%;text-align:center}
+/* Focus accesibil, consistent pe toate componentele interactive */
+:where(a, button, input, select, textarea, .choice, .segmented .btn):focus-visible{
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+  border-radius: 8px;
 }
 
-
-/* === Premium polish additions === */
-:root{
-  --accent1:#5e86ff;
-  --accent2:#4a5eff;
-  --glass-strong:rgba(255,255,255,.06);
+/* ---------- Header ---------- */
+.site-header{ padding-top: var(--sp-6); padding-bottom: var(--sp-4) }
+.brand{
+  display:flex; align-items:center; gap:12px;
+  font-weight: 800; letter-spacing: .2px; margin:0;
+  font-size: clamp(20px, 3.6vw, 28px);
 }
-
-body{font-family:Inter, ui-sans-serif, system-ui, Segoe UI, Roboto, Helvetica, Arial}
-
 .logo{
-  display:inline-block;width:14px;height:14px;border-radius:4px;
-  background:linear-gradient(135deg,var(--accent1),var(--accent2));
-  box-shadow:0 2px 8px rgba(94,134,255,.6);margin-right:8px;vertical-align:-2px
+  width: 18px; height: 18px; display:inline-block; border-radius: 5px;
+  background: linear-gradient(135deg, #d3d6db, #8c929b);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.25), inset 0 -1px 0 rgba(0,0,0,.25);
+}
+.subtitle{ margin: 8px 0 0; color: var(--muted); font-size: 14.5px }
+
+/* ---------- Grid / layout ---------- */
+.grid{
+  display:grid; gap: var(--sp-5);
+  grid-template-columns: 1.25fr .85fr;
+}
+@media (max-width: 960px){
+  .grid{ grid-template-columns: 1fr }
 }
 
-/* Buttons: gradient primary */
+/* ---------- Panouri / Carduri ---------- */
+.panel, .card{
+  background: linear-gradient(180deg, var(--glass), transparent),
+              var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--r-lg);
+  box-shadow: var(--shadow-2);
+}
+.panel{ padding: var(--sp-5) }
+.card{ padding: var(--sp-4) }
+
+.panel:hover, .card:hover{ border-color: var(--border-strong) }
+
+/* Titluri */
+.title{
+  margin:0 0 var(--sp-3);
+  font-size: clamp(18px, 2.2vw, 22px);
+  font-weight: 800;
+  letter-spacing: .2px;
+}
+.title.sm{ font-size: 16px; margin-bottom: var(--sp-2); font-weight: 700 }
+
+/* ---------- Controale / butoane ---------- */
+.controls{ display:flex; flex-wrap:wrap; gap:10px }
+.btn{
+  appearance:none; border:1px solid var(--border);
+  background: var(--elev); color: var(--ink);
+  padding: 10px 14px; border-radius: 12px; cursor:pointer;
+  font-weight: 600; letter-spacing:.2px;
+  transition: transform .06s ease, background .2s, border-color .2s, box-shadow .2s;
+  box-shadow: 0 0 0 rgba(0,0,0,0);
+}
+.btn:hover{ background: #20252d; border-color: var(--border-strong) }
+.btn:active{ transform: translateY(1px) }
+.btn:disabled{ opacity:.55; cursor:not-allowed }
+
 .btn.primary{
-  background:linear-gradient(135deg,var(--accent1),var(--accent2));
-  border:1px solid rgba(255,255,255,.08);
+  background: var(--primary); color: var(--primary-ink);
+  border-color: transparent;
+}
+.btn.primary:hover{ filter: brightness(1.06) }
+.btn.primary:active{ transform: translateY(1px) }
+
+.btn.ghost{
+  background: transparent; border-color: var(--border);
+}
+.btn.ghost:hover{ background: var(--glass) }
+
+.btn.outline{
+  background: transparent; border-color: var(--primary); color: var(--primary);
+}
+.btn.outline:hover{ background: rgba(255,255,255,.05) }
+
+.btn.danger{
+  background: var(--no); color: #fff; border-color: transparent;
+}
+.btn.danger:hover{ filter: brightness(1.05) }
+
+/* Dimensiuni */
+.btn.sm{ padding: 7px 10px; border-radius: 10px; font-size: 13px }
+.btn.lg{ padding: 12px 18px; border-radius: 14px; font-size: 16px }
+
+/* ---------- Segmented control (ex: 45 min / etc.) ---------- */
+.segmented{
+  display:inline-flex; background: var(--choice);
+  border:1px solid var(--choice-brd); border-radius: 12px; padding: 4px;
+  gap:4px;
+}
+.segmented .btn{
+  background: transparent; border:0; padding: 8px 12px; border-radius: 8px;
+}
+.segmented .btn:hover{ background: var(--choice-hover) }
+.segmented .btn.active{
+  background: #262c34; color: #fff; box-shadow: inset 0 1px 0 rgba(255,255,255,.04);
 }
 
-/* Subtle card hover */
-.card:hover{box-shadow:0 14px 48px rgba(0,0,0,.45);transition:box-shadow .25s ease}
+/* ---------- Statistici / Badge-uri ---------- */
+.stats{ display:flex; gap:12px; flex-wrap:wrap }
+.stat{
+  display:flex; align-items:center; gap:8px;
+  padding: 8px 10px; border-radius: 10px; background: var(--glass);
+  border:1px solid var(--border); color: var(--muted);
+  font-weight: 600;
+}
+.badge, .tag{
+  display:inline-flex; align-items:center; gap:6px;
+  padding: 6px 10px; border-radius: 999px;
+  background: var(--glass); border:1px solid var(--border);
+  color: var(--muted);
+}
+.tag.ok{ background: var(--ok-bg); color: #b7f0c8; border-color: rgba(46,160,67,.35) }
+.tag.no{ background: var(--no-bg); color: #f2b7bf; border-color: rgba(208,55,69,.35) }
 
-/* Progress bar */
-.progressbar{position:relative;width:100%;height:8px;background:#0b1122;border:1px solid var(--border);border-radius:999px;overflow:hidden}
-.progressbar .bar{height:100%;width:0%;background:linear-gradient(90deg,var(--accent1),var(--accent2));transition:width .25s ease}
+/* ---------- Întrebări & răspunsuri ---------- */
+.question{
+  background: linear-gradient(180deg, var(--glass-strong), transparent), var(--card);
+  border:1px solid var(--border); border-radius: var(--r-md);
+  padding: var(--sp-4); box-shadow: var(--shadow-2);
+}
+.question + .question{ margin-top: var(--sp-4) }
 
-/* Animations */
-@keyframes fadeInUp{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
-.fade-in{animation:fadeInUp .25s ease both}
-@keyframes pulseCorrect{0%{transform:scale(1)}50%{transform:scale(1.015)}100%{transform:scale(1)}}
-@keyframes shakeWrong{0%{transform:translateX(0)}30%{transform:translateX(-4px)}60%{transform:translateX(4px)}100%{transform:translateX(0)}}
-.choice.correct{animation:pulseCorrect .25s ease}
-.choice.wrong{animation:shakeWrong .25s ease}
+.q-text{ font-weight: 700; margin: 0 0 var(--sp-3) }
+.choices{ display:flex; flex-direction: column; gap:10px; margin-top: var(--sp-2) }
 
-/* Timer badge improvement */
-.timer{background:#0e1430;border:1px solid var(--border);padding:6px 10px;border-radius:10px}
+.choice{
+  display:flex; align-items:flex-start; gap:12px; cursor:pointer;
+  background: var(--choice); border:1px solid var(--choice-brd);
+  border-radius: 12px; padding: 10px 12px;
+  transition: background .2s, border-color .2s, box-shadow .2s, transform .06s ease;
+}
+.choice:hover{ background: var(--choice-hover); border-color: var(--border-strong) }
+.choice:active{ transform: translateY(1px) }
 
-/* Review items polish */
-.review-item{background:linear-gradient(180deg,var(--glass-strong),transparent);}
-.review-item .q{font-weight:700;margin-bottom:6px}
-.review-item .a{color:var(--muted)}
+.choice input{
+  margin-top: 2px; accent-color: var(--primary);
+  width: 18px; height: 18px; flex: 0 0 auto;
+}
+.choice .label{ color: var(--ink) }
+.choice .hint{ color: var(--muted); margin-top: 4px; font-size: 13px }
 
-/* Small accessibility tweaks */
-.choice{line-height:1.45}
-.choice input{min-width:18px}
+/* Stări corect / greșit (după răspuns) */
+.choice.correct{
+  border-color: rgba(46,160,67,.55);
+  box-shadow: 0 0 0 2px rgba(46,160,67,.18) inset;
+  animation: pulseCorrect .25s ease;
+}
+.choice.wrong{
+  border-color: rgba(208,55,69,.6);
+  box-shadow: 0 0 0 2px rgba(208,55,69,.18) inset;
+  animation: shakeWrong .25s ease;
+}
+
+/* ---------- Cronometru & Progres ---------- */
+.timer{
+  display:inline-flex; align-items:center; gap:8px;
+  background: #0f1216; border:1px solid var(--border);
+  padding: 6px 10px; border-radius: 10px; font-weight: 700;
+}
+.meter{
+  height: 10px; background: #0f1216; border:1px solid var(--border);
+  border-radius: 999px; overflow:hidden;
+}
+.meter .bar{
+  height:100%; width:0%; background: var(--primary);
+  transition: width .3s ease;
+}
+
+/* ---------- Review (revizuire) ---------- */
+.review{ display:flex; flex-direction:column; gap:12px }
+.review-item{
+  background: linear-gradient(180deg, var(--glass-strong), transparent), var(--card);
+  border:1px solid var(--border); border-radius: 12px; padding: 12px;
+}
+.review-item .q{ font-weight: 700; margin-bottom: 6px }
+.review-item .a{ color: var(--muted) }
+
+/* ---------- Form fields / switch ---------- */
+.field{ display:flex; flex-direction:column; gap:6px }
+.input, select, textarea{
+  background: #0f1216; border:1px solid var(--border); color: var(--ink);
+  border-radius: 10px; padding: 10px 12px;
+}
+.input::placeholder{ color: var(--muted-2) }
+
+.switch{
+  position: relative; width: 48px; height: 28px; border-radius: 999px;
+  background: #0f1216; border: 1px solid var(--border); cursor:pointer;
+  transition: background .2s, border-color .2s;
+}
+.switch::after{
+  content:""; position:absolute; top: 4px; left: 4px;
+  width: 20px; height: 20px; border-radius: 50%;
+  background: var(--primary); transition: transform .2s ease;
+}
+.switch[aria-checked="true"]{ background: #1b1f25; border-color: var(--border-strong) }
+.switch[aria-checked="true"]::after{ transform: translateX(20px) }
+
+/* ---------- Footer ---------- */
+.site-footer{
+  padding: var(--sp-5) 0 var(--sp-6);
+  color: var(--muted);
+  font-size: 13.5px;
+  border-top: 1px solid var(--border);
+  margin-top: var(--sp-6);
+}
+
+/* ---------- Tables (dacă există) ---------- */
+.table{
+  width:100%; border-collapse: collapse; font-size: 14px; overflow:hidden;
+  border:1px solid var(--border); border-radius: var(--r-md);
+}
+.table th, .table td{ padding: 10px 12px; text-align:left; border-bottom:1px solid var(--border) }
+.table thead th{ background: #0f1216; color: var(--muted) }
+.table tbody tr:hover{ background: var(--glass) }
+
+/* ---------- Animations ---------- */
+@keyframes pulseCorrect{
+  0%{ transform: scale(1); }
+  50%{ transform: scale(1.01); }
+  100%{ transform: scale(1); }
+}
+@keyframes shakeWrong{
+  0%{ transform: translateX(0) }
+  25%{ transform: translateX(-3px) }
+  50%{ transform: translateX(3px) }
+  75%{ transform: translateX(-2px) }
+  100%{ transform: translateX(0) }
+}
+
+/* ---------- Links ---------- */
+a{ color: var(--primary); text-decoration: none }
+a:hover{ text-decoration: underline }
+
+/* ---------- Small tweaks ---------- */
+hr{
+  border:0; height:1px; background: var(--border);
+  margin: var(--sp-4) 0;
+}
+.kbd{
+  display:inline-block; border:1px solid var(--border);
+  background:#0f1216; padding:2px 6px; border-radius:6px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 12px; color: var(--muted);
+}
+
+/* ---------- Buttons group alignment ---------- */
+.btn-row{ display:flex; flex-wrap:wrap; gap:10px; align-items:center }
+.center{ display:flex; justify-content:center; align-items:center }
+.right{ display:flex; justify-content:flex-end }
+
+/* ---------- Spacing utilities ---------- */
+.mt-1{ margin-top: var(--sp-1) } .mt-2{ margin-top: var(--sp-2) }
+.mt-3{ margin-top: var(--sp-3) } .mt-4{ margin-top: var(--sp-4) }
+.mt-5{ margin-top: var(--sp-5) } .mt-6{ margin-top: var(--sp-6) }
+
+.mb-1{ margin-bottom: var(--sp-1) } .mb-2{ margin-bottom: var(--sp-2) }
+.mb-3{ margin-bottom: var(--sp-3) } .mb-4{ margin-bottom: var(--sp-4) }
+.mb-5{ margin-bottom: var(--sp-5) } .mb-6{ margin-bottom: var(--sp-6) }
+
+/* ---------- Print (opțional, hârtie curată) ---------- */
+@media print{
+  body{ background: #fff; color:#111 }
+  .panel, .card, .question, .review-item{ border-color:#ddd; box-shadow:none; background:#fff }
+  .btn, .timer, .tag, .stat{ border-color:#ddd; background:#fff; color:#111 }
+}
