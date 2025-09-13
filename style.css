@@ -1,57 +1,58 @@
 /* =========================================================
-   SPT Training — Light Theme (full rewrite)
-   ---------------------------------------------------------
+   SMB Training — Light Theme (FULL CSS REWRITE)
    - Fundal deschis, gri elegant
    - Carduri albe, umbre discrete
-   - Accente neutre, contrast bun & accesibilitate
-   - Compatibil cu: header, panel, grid, question, choice,
-     review, timer, stats, buttons etc.
+   - Spații mai mari între butoanele de timp (segment/seg-btn)
+   - Păstrează aceleași clase din HTML existent
    ========================================================= */
 
+/* ------------ Variabile globale ------------ */
 :root{
-  /* Culoare de bază & text */
-  --bg:   #f6f7f9;        /* fundal principal (gri foarte deschis) */
-  --bg-2: #ffffff;        /* strat pentru gradient */
-  --ink: #1b1f24;         /* text principal (închis) */
-  --muted: #636b74;       /* text secundar */
-  --muted-2: #7a8691;
+  /* Fundal & text */
+  --bg:   #f7f9fb;         /* gri foarte deschis */
+  --bg-2: #ffffff;         /* strat superior pentru gradient */
+  --ink:  #1b1f24;         /* text principal */
+  --muted:#5f6771;         /* text secundar */
+  --muted-2:#7a8691;
 
   /* Suprafețe */
-  --card: #ffffff;        /* plăci / carduri */
-  --elev: #f0f2f5;        /* hover pe carduri / butoane */
-  --choice: #ffffff;      /* opțiuni întrebări (idle) */
-  --choice-hover: #f6f8fa;/* opțiuni întrebări (hover) */
-  --choice-brd: rgba(0,0,0,.08);
+  --card:#ffffff;          /* carduri/panouri */
+  --elev:#f0f2f5;          /* hover butoane/card */
+  --glass:rgba(0,0,0,.035);
+  --glass-strong:rgba(0,0,0,.05);
+  --border:rgba(0,0,0,.10);
+  --border-strong:rgba(0,0,0,.16);
 
-  /* Accente & stări (neutru elegant) */
-  --primary: #4c5562;       /* accent neutru (slate) */
-  --primary-ink: #ffffff;   /* text pe butonul primar */
-  --border: rgba(0,0,0,.10);
-  --border-strong: rgba(0,0,0,.16);
-  --glass: rgba(0,0,0,.03);
-  --glass-strong: rgba(0,0,0,.045);
+  /* Accente & stări */
+  --primary:#334155;       /* accent neutru (slate) */
+  --primary-ink:#ffffff;   /* text pe buton primar */
+  --ok:#2ea043;   --ok-bg:#e8f5ec;
+  --no:#d03745;   --no-bg:#fbecee;
 
-  --ok: #2ea043;   --ok-bg: #e8f5ec;
-  --no: #d03745;   --no-bg: #fbecee;
+  /* Opțiuni întrebare */
+  --choice:#ffffff;
+  --choice-hover:#f6f8fa;
+  --choice-brd:rgba(0,0,0,.10);
 
-  /* Umbre */
-  --shadow-1: 0 6px 18px rgba(18, 21, 26, .06);
-  --shadow-2: 0 2px 8px rgba(18, 21, 26, .05);
+  /* Umbre & raze */
+  --shadow-1:0 6px 18px rgba(18,21,26,.06);
+  --shadow-2:0 2px 8px rgba(18,21,26,.05);
+  --r-sm:10px; --r-md:14px; --r-lg:18px;
 
-  /* Rază */
-  --r-sm: 10px; --r-md: 14px; --r-lg: 18px;
-
-  /* Spațieri */
-  --sp-1: 6px; --sp-2: 10px; --sp-3: 14px; --sp-4: 18px;
-  --sp-5: 24px; --sp-6: 32px;
+  /* Spațiere */
+  --sp-1:6px; --sp-2:10px; --sp-3:14px; --sp-4:18px; --sp-5:24px; --sp-6:32px;
 }
 
+/* ------------ Reseturi utile ------------ */
 *{ box-sizing:border-box }
-html, body{ margin:0; height:100% }
+html,body{ margin:0; height:100% }
+img{ max-width:100%; height:auto; display:block }
 
+/* ------------ Layout de bază ------------ */
 body{
   font-family: Inter, ui-sans-serif, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  color: var(--ink); line-height: 1.55;
+  color: var(--ink);
+  line-height: 1.55;
   background:
     radial-gradient(1200px 800px at 12% -10%, rgba(0,0,0,.03) 0%, transparent 60%),
     radial-gradient(1000px 700px at 110% 10%, rgba(0,0,0,.025) 0%, transparent 60%),
@@ -60,121 +61,122 @@ body{
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* ---------- Helpers ---------- */
 .container{ width:min(1120px, 92vw); margin:0 auto; padding: var(--sp-5) var(--sp-4) }
-.muted{ color: var(--muted) }
 .hidden{ display:none !important }
+.muted{ color: var(--muted) }
+.spacer{ flex:1 1 auto }
 
 /* Focus accesibil, consistent */
-:where(a, button, input, select, textarea, .choice, .segmented .btn):focus-visible{
+:where(a, button, input, select, textarea, .choice, .seg-btn):focus-visible{
   outline: 2px solid var(--primary);
   outline-offset: 2px;
   border-radius: 8px;
 }
 
-/* ---------- Header ---------- */
+/* ------------ Header ------------ */
 .site-header{ padding-top: var(--sp-6); padding-bottom: var(--sp-4) }
 .brand{
   display:flex; align-items:center; gap:12px;
-  font-weight: 800; letter-spacing:.2px; margin:0;
+  font-weight:800; letter-spacing:.2px; margin:0;
   font-size: clamp(20px, 3.6vw, 28px);
 }
 .logo{
-  width:18px; height:18px; display:inline-block; border-radius:5px;
+  width:18px; height:18px; border-radius:5px; display:inline-block;
   background: linear-gradient(135deg, #e3e6ea, #b8c0cc);
-  box-shadow: inset 0 1px 0 rgba(255,255,255,.6), inset 0 -1px 0 rgba(0,0,0,.05);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.7), inset 0 -1px 0 rgba(0,0,0,.06);
 }
-.subtitle{ margin:8px 0 0; color: var(--muted); font-size: 14.5px }
+.subtitle{ margin:8px 0 0; color: var(--muted); font-size:14.5px }
 
-/* ---------- Grid / layout ---------- */
+/* ------------ Grid / layout ------------ */
 .grid{ display:grid; gap: var(--sp-5); grid-template-columns: 1.25fr .85fr }
 @media (max-width: 960px){ .grid{ grid-template-columns:1fr } }
 
-/* ---------- Panouri / Carduri ---------- */
-.panel, .card{
+/* ------------ Carduri / Panouri ------------ */
+.card, .panel{
   background: linear-gradient(180deg, var(--glass), transparent), var(--card);
-  border: 1px solid var(--border);
+  border:1px solid var(--border);
   border-radius: var(--r-lg);
   box-shadow: var(--shadow-2);
 }
-.panel{ padding: var(--sp-5) }
 .card{ padding: var(--sp-4) }
-.panel:hover, .card:hover{ border-color: var(--border-strong) }
+.panel{ padding: var(--sp-5) }
+.card:hover, .panel:hover{ border-color: var(--border-strong) }
 
-/* Titluri */
+.panel.compact{ display:flex; flex-direction:column; gap:16px }
+
 .title{
   margin:0 0 var(--sp-3);
   font-size: clamp(18px, 2.2vw, 22px);
-  font-weight: 800; letter-spacing:.2px;
+  font-weight:800; letter-spacing:.2px;
 }
 .title.sm{ font-size:16px; margin-bottom:var(--sp-2); font-weight:700 }
 
-/* ---------- Controale / butoane ---------- */
+/* ------------ Butoane ------------ */
 .controls{ display:flex; flex-wrap:wrap; gap:10px }
 .btn{
   appearance:none; border:1px solid var(--border);
   background: var(--elev); color: var(--ink);
   padding: 10px 14px; border-radius: 12px; cursor:pointer;
   font-weight: 600; letter-spacing:.2px;
-  transition: transform .06s ease, background .2s, border-color .2s, box-shadow .2s;
+  transition: transform .06s ease, background .2s, border-color .2s, box-shadow .2s, filter .2s;
   box-shadow: 0 0 0 rgba(0,0,0,0);
 }
 .btn:hover{ background:#e9ebef; border-color: var(--border-strong) }
 .btn:active{ transform: translateY(1px) }
 .btn:disabled{ opacity:.55; cursor:not-allowed }
 
-.btn.primary{
-  background: var(--primary); color: var(--primary-ink); border-color: transparent;
-}
+.btn.primary{ background: var(--primary); color: var(--primary-ink); border-color: transparent }
 .btn.primary:hover{ filter: brightness(1.06) }
 .btn.primary:active{ transform: translateY(1px) }
 
-.btn.ghost{
-  background: transparent; border-color: var(--border); color: var(--ink);
-}
+.btn.ghost{ background:#fff; border:1px solid var(--border); color: var(--ink) }
 .btn.ghost:hover{ background: var(--glass) }
 
-.btn.outline{
-  background: transparent; border-color: var(--primary); color: var(--primary);
-}
+.btn.outline{ background: transparent; border-color: var(--primary); color: var(--primary) }
 .btn.outline:hover{ background: rgba(0,0,0,.035) }
 
 .btn.danger{ background: var(--no); color:#fff; border-color: transparent }
 .btn.danger:hover{ filter: brightness(1.05) }
 
-/* Dimensiuni */
 .btn.sm{ padding:7px 10px; border-radius:10px; font-size:13px }
 .btn.lg{ padding:12px 18px; border-radius:14px; font-size:16px }
 
-/* ---------- Segmented control ---------- */
-.segmented{
-  display:inline-flex; background:#f5f6f8;
-  border:1px solid var(--choice-brd); border-radius:12px; padding:4px; gap:4px;
-}
-.segmented .btn{
-  background: transparent; border:0; padding:8px 12px; border-radius:8px;
-}
-.segmented .btn:hover{ background:#eef1f5 }
-.segmented .btn.active{
-  background:#e2e6ec; color:#111; box-shadow: inset 0 1px 0 rgba(255,255,255,.8);
-}
-
-/* ---------- Statistici / Badge-uri ---------- */
-.stats{ display:flex; gap:12px; flex-wrap:wrap }
+/* ------------ Statistici ------------ */
+.panel-stats{ display:flex; gap:10px; flex-wrap:wrap }
 .stat{
   display:flex; align-items:center; gap:8px;
-  padding:8px 10px; border-radius:10px; background: var(--glass);
-  border:1px solid var(--border); color: var(--muted); font-weight:600;
+  padding:8px 12px; border-radius:14px;
+  background: #f5f7fa; border:1px solid var(--border);
+  color: var(--muted); font-weight:700; letter-spacing:.02em;
 }
-.badge, .tag{
-  display:inline-flex; align-items:center; gap:6px;
-  padding:6px 10px; border-radius: 999px;
-  background: var(--glass); border:1px solid var(--border); color: var(--muted);
-}
-.tag.ok{ background: var(--ok-bg); color:#176a2a; border-color: rgba(46,160,67,.35) }
-.tag.no{ background: var(--no-bg); color:#8f2230; border-color: rgba(208,55,69,.35) }
+.stat b{ font-variant-numeric: tabular-nums }
+.stat.ok{ background: var(--ok-bg); color: #176a2a; border-color: rgba(46,160,67,.35) }
+.stat.no{ background: var(--no-bg); color: #8f2230; border-color: rgba(208,55,69,.35) }
+.stat.dim{ opacity:.85 }
 
-/* ---------- Întrebări & răspunsuri ---------- */
+/* ------------ Setează timp (cu spații mai mari) ------------ */
+.time-row{ display:flex; gap:16px; align-items:center; flex-wrap:wrap }
+.time-label{ color: var(--muted); font-weight:700 }
+.segment{
+  display:flex; gap:16px;                   /* << spații mai mari între butoane */
+  background:#f5f7fa; border:1px solid var(--border);
+  border-radius: 999px; padding: 8px 10px;  /* padding puțin mai mare */
+}
+.seg-btn{
+  background: transparent; border:0; cursor:pointer;
+  color: var(--ink); font-weight:700; letter-spacing:.2px;
+  padding: 10px 18px;                        /* << butoane mai aerisite */
+  border-radius: 999px; line-height:1;
+  transition: background .2s, color .2s, transform .06s ease;
+}
+.seg-btn:hover{ background:#eef1f5 }
+.seg-btn:active{ transform: translateY(1px) }
+.seg-btn.active{
+  background: var(--primary); color:#fff;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.6);
+}
+
+/* ------------ Întrebări & opțiuni ------------ */
 .question{
   background: linear-gradient(180deg, var(--glass-strong), transparent), var(--card);
   border:1px solid var(--border); border-radius: var(--r-md);
@@ -190,18 +192,16 @@ body{
   background: var(--choice); border:1px solid var(--choice-brd);
   border-radius:12px; padding:10px 12px;
   transition: background .2s, border-color .2s, box-shadow .2s, transform .06s ease;
+  line-height:1.45;
 }
 .choice:hover{ background: var(--choice-hover); border-color: var(--border-strong) }
 .choice:active{ transform: translateY(1px) }
 
-.choice input{
-  margin-top:2px; accent-color: var(--primary);
-  width:18px; height:18px; flex:0 0 auto;
-}
+.choice input{ margin-top:2px; accent-color: var(--primary); min-width:18px; width:18px; height:18px; flex:0 0 auto }
 .choice .label{ color: var(--ink) }
 .choice .hint{ color: var(--muted); margin-top:4px; font-size:13px }
 
-/* Stări corect / greșit (după răspuns) */
+/* Stări corect/greșit */
 .choice.correct{
   border-color: rgba(46,160,67,.55);
   box-shadow: 0 0 0 2px rgba(46,160,67,.15) inset;
@@ -213,22 +213,27 @@ body{
   animation: shakeWrong .25s ease;
 }
 
-/* ---------- Cronometru & Progres ---------- */
+/* ------------ Timer & progres ------------ */
 .timer{
   display:inline-flex; align-items:center; gap:8px;
   background:#f5f7fa; border:1px solid var(--border);
   padding:6px 10px; border-radius:10px; font-weight:700;
+  color: var(--ink);
 }
-.meter{
-  height:10px; background:#edf0f4; border:1px solid var(--border);
+
+/* bara de progres orizontală */
+.progressbar{
+  height:10px; background:#edf0f4;
+  border:1px solid var(--border);
   border-radius:999px; overflow:hidden;
 }
-.meter .bar{
-  height:100%; width:0%; background: var(--primary);
+.progressbar .bar{
+  height:100%; width:0%;
+  background: var(--primary);
   transition: width .3s ease;
 }
 
-/* ---------- Review ---------- */
+/* ------------ Review ------------ */
 .review{ display:flex; flex-direction:column; gap:12px }
 .review-item{
   background: linear-gradient(180deg, var(--glass-strong), transparent), var(--card);
@@ -237,7 +242,7 @@ body{
 .review-item .q{ font-weight:700; margin-bottom:6px }
 .review-item .a{ color: var(--muted) }
 
-/* ---------- Form fields / switch ---------- */
+/* ------------ Form fields ------------ */
 .field{ display:flex; flex-direction:column; gap:6px }
 .input, select, textarea{
   background:#fff; border:1px solid var(--border); color: var(--ink);
@@ -245,40 +250,30 @@ body{
 }
 .input::placeholder{ color: var(--muted-2) }
 
-.switch{
-  position:relative; width:48px; height:28px; border-radius:999px;
-  background:#f0f2f5; border:1px solid var(--border); cursor:pointer;
-  transition: background .2s, border-color .2s;
-}
-.switch::after{
-  content:""; position:absolute; top:4px; left:4px;
-  width:20px; height:20px; border-radius:50%;
-  background: var(--primary); transition: transform .2s ease;
-}
-.switch[aria-checked="true"]{ background:#e6e9ee; border-color: var(--border-strong) }
-.switch[aria-checked="true"]::after{ transform: translateX(20px) }
-
-/* ---------- Footer ---------- */
+/* ------------ Footer ------------ */
 .site-footer{
   padding: var(--sp-5) 0 var(--sp-6);
   color: var(--muted); font-size: 13.5px;
   border-top: 1px solid var(--border); margin-top: var(--sp-6);
 }
 
-/* ---------- Tables ---------- */
-.table{
-  width:100%; border-collapse:collapse; font-size:14px; overflow:hidden;
-  border:1px solid var(--border); border-radius: var(--r-md);
-}
-.table th, .table td{ padding:10px 12px; text-align:left; border-bottom:1px solid var(--border) }
-.table thead th{ background:#f5f7fa; color: var(--muted) }
-.table tbody tr:hover{ background: var(--glass) }
+/* ------------ Links & mici ajustări ------------ */
+a{ color:#2b3644; text-decoration:none }
+a:hover{ text-decoration:underline }
 
-/* ---------- Animations ---------- */
+hr{ border:0; height:1px; background: var(--border); margin: var(--sp-4) 0 }
+.kbd{
+  display:inline-block; border:1px solid var(--border);
+  background:#f5f7fa; padding:2px 6px; border-radius:6px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size:12px; color: var(--muted);
+}
+
+/* ------------ Animații ------------ */
 @keyframes pulseCorrect{
-  0%{ transform: scale(1); }
-  50%{ transform: scale(1.01); }
-  100%{ transform: scale(1); }
+  0%{ transform: scale(1) }
+  50%{ transform: scale(1.01) }
+  100%{ transform: scale(1) }
 }
 @keyframes shakeWrong{
   0%{ transform: translateX(0) }
@@ -288,36 +283,9 @@ body{
   100%{ transform: translateX(0) }
 }
 
-/* ---------- Links ---------- */
-a{ color: #2b3644; text-decoration: none }
-a:hover{ text-decoration: underline }
-
-/* ---------- Small tweaks ---------- */
-hr{ border:0; height:1px; background: var(--border); margin: var(--sp-4) 0 }
-.kbd{
-  display:inline-block; border:1px solid var(--border);
-  background:#f5f7fa; padding:2px 6px; border-radius:6px;
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  font-size:12px; color: var(--muted);
-}
-
-/* ---------- Buttons group alignment ---------- */
-.btn-row{ display:flex; flex-wrap:wrap; gap:10px; align-items:center }
-.center{ display:flex; justify-content:center; align-items:center }
-.right{ display:flex; justify-content:flex-end }
-
-/* ---------- Spacing utilities ---------- */
-.mt-1{ margin-top: var(--sp-1) } .mt-2{ margin-top: var(--sp-2) }
-.mt-3{ margin-top: var(--sp-3) } .mt-4{ margin-top: var(--sp-4) }
-.mt-5{ margin-top: var(--sp-5) } .mt-6{ margin-top: var(--sp-6) }
-
-.mb-1{ margin-bottom: var(--sp-1) } .mb-2{ margin-bottom: var(--sp-2) }
-.mb-3{ margin-bottom: var(--sp-3) } .mb-4{ margin-bottom: var(--sp-4) }
-.mb-5{ margin-bottom: var(--sp-5) } .mb-6{ margin-bottom: var(--sp-6) }
-
-/* ---------- Print ---------- */
+/* ------------ Print ------------ */
 @media print{
   body{ background:#fff; color:#111 }
   .panel, .card, .question, .review-item{ border-color:#ddd; box-shadow:none; background:#fff }
-  .btn, .timer, .tag, .stat{ border-color:#ddd; background:#fff; color:#111 }
+  .btn, .timer, .stat{ border-color:#ddd; background:#fff; color:#111 }
 }
